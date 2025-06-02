@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="tj-offcanvas-header d-flex align-items-center justify-content-between">
           <div className="logo-area text-center">
             <a href="">
-              <img src="assets/images/logo/white-logo.png" alt="Logo" />
+              <img src="/assets/pic/jsl_logo.png" alt="Logo" />
             </a>
           </div>
           {/* “Close” button inside the offcanvas */}
@@ -56,7 +56,7 @@ const Navbar = () => {
         <nav
           className="right_menu_togle mobile-navbar-menu d-lg-none"
           id="mobile-navbar-menu"
-        ></nav>
+        >  </nav>
 
         <div className="mobile-contact">
           <div className="contact-menu">
@@ -123,7 +123,7 @@ const Navbar = () => {
             <div className="logo-area">
               <div className="logo">
                 <a href="">
-                  <img src="assets/images/logo/dark-logo2.png" alt="Logo" />
+                  <img src="/assets/pic/jsl_logo.png" alt="Logo" />
                 </a>
               </div>
             </div>
@@ -134,7 +134,7 @@ const Navbar = () => {
             >
               <nav id="mobile-menu">
                 <ul>
-                  <li className="has-dropdown">
+                  {/* <li className="has-dropdown">
                     <a href="">Home</a>
                     <ul className="sub-menu">
                       <li>
@@ -149,11 +149,23 @@ const Navbar = () => {
                         </a>
                       </li>
                     </ul>
+                  </li> */}
+                   <li>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="">About Us</a>
+                    <a href="/About_us">About Us</a>
                   </li>
-                  <li className="has-dropdown">
+                  <li>
+                    <a href="">Services</a>
+                  </li>
+                  <li>
+                    <a href="">Verify Certificate1</a>
+                  </li>
+                   <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  {/* <li className="has-dropdown">
                     <a href="">Services</a>
                     <ul className="sub-menu">
                       <li>
@@ -165,8 +177,8 @@ const Navbar = () => {
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li className="has-dropdown">
+                  </li> */}
+                  {/* <li className="has-dropdown">
                     <a href="#">Pages</a>
                     <ul className="sub-menu">
                       <li>
@@ -201,7 +213,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a href="">Contact</a>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>
