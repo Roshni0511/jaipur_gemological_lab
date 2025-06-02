@@ -15,7 +15,7 @@ const Home = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12">
-                        <div className="hero-content-area" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="hero-content-area sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="400">
                             <div className="tj-sec-heading">
                                 <span className="white-sub-title">Services Platform</span>
@@ -66,11 +66,11 @@ const Home = () => {
                             <div className="gradient-shape pulse">
                                 <img src="assets/images/about/about-shape.png" alt="Shape" />
                             </div>
-                            <div className="image-group-1" data-sal="slide-right" data-sal-duration="1200"
+                            <div className="image-group-1 sal-animate" data-sal="slide-right" data-sal-duration="1200"
                                 data-sal-delay="600">
                                 <img className="about-lg-image" src="assets/images/about/about-7.jpg" alt="About" />
                             </div>
-                            <div className="image-group-2" data-sal="slide-left" data-sal-duration="1200"
+                            <div className="image-group-2 sal-animate" data-sal="slide-left" data-sal-duration="1200"
                                 data-sal-delay="600">
                                 <img className="about-image" src="assets/images/about/about-8.jpg" alt="About" />
                             </div>
@@ -88,7 +88,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-xl-6">
-                        <div className="about-content-three" data-sal="slide-left" data-sal-duration="1000"
+                        <div className="about-content-three sal-animate" data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="600">
                             <div className="tj-sec-heading">
                                 <span className="secondary-color"> About Us</span>
@@ -276,7 +276,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6">
-                        <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
+                        <div className="tj-sec-heading sal-animate" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">Our Services</span>
                             <h2 className="sec-title">Service We Provide</h2>
@@ -340,7 +340,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                        <div className="tj-service-video-content" data-sal="slide-left" data-sal-duration="1000"
+                        <div className="tj-service-video-content sal-animate" data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="600">
                             <div className="desc">
                                 <p>
@@ -370,12 +370,49 @@ const Home = () => {
         </section>
         {/* <!-- end: service Area --> */}
 
+     {/* <!-- start: Counter Area --> */}
+        <section class="tj-counter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="counter-content-area ">
+                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                                <div class="tj-count"><span class="odometer" data-count="254">0</span>+</div>
+                                <span class="sub-title">Project Complete</span>
+                            </div>
+                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                                <div class="tj-count"><span class="odometer" data-count="164">0</span>+</div>
+                                <span class="sub-title">Quality Team Member</span>
+                            </div>
+                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                                <div class="tj-count"><span class="odometer" data-count="433">0</span>+</div>
+                                <span class="sub-title">Awards Winning</span>
+                            </div>
+                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                                <div class="tj-count"><span class="odometer" data-count="30">0</span>+</div>
+                                <span class="sub-title">Years Of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="counter-section-shape">
+                <div class="counter_shape">
+                    <img src="assets/images/shape/counter-shape.svg" alt="Shape" />
+                </div>
+                <div class="counter_shape1">
+                    <img src="assets/images/shape/counter-shape1.svg" alt="Shape" />
+                </div>
+            </div>
+        </section>
+        {/* <!-- end: Counter Area --> */}
+
           {/* <!-- Start: Portfolio Area --> */}
         <section className="tj-portfolio-section-three inc-colum default-padding">
             <div className="container">
                 <div className="row align-items-center portfolio-top">
                     <div className="col-lg-6">
-                        <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
+                        <div className="tj-sec-heading sal-animate" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">Projects We Have</span>
                             <h2 className="sec-title">Our Case Studies</h2>
@@ -387,7 +424,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="filter-menu" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
+                        <div className="filter-menu sal-animate" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
                             <button className="filter active" data-filter="*">All</button>
                             <button className="filter" data-filter=".development">Web Design</button>
                             <button className="filter" data-filter=".consulting">Motion Design</button>
@@ -396,9 +433,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row" id="portfolio-grid">
+                <div className="row" id="portfolio-grid" style={{ position: 'relative', height: '568.375px' }}>
                     <div className="col-lg-4 col-md-6">
-                        <div className="portfolio-single-item finance">
+                        <div className="portfolio-single-item finance" style={{position:'absolute',left:'0%',top:'0PX'}} >
                             <div className="portfolio-inner">
                                 <div className="portfolio-image">
                                     <img src="assets/images/portfolio/portfolio-15.jpg" alt="Image" />
@@ -418,7 +455,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <div className="portfolio-single-item consulting finance">
+                        <div className="portfolio-single-item consulting finance" style={{ position: 'absolute', left: '33.3298%', top: '0px' }}>
                             <div className="portfolio-inner">
                                 <div className="portfolio-image">
                                     <img src="assets/images/portfolio/portfolio-17.jpg" alt="Image" />
@@ -454,7 +491,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <div className="portfolio-single-item capital development">
+                        <div className="portfolio-single-item capital development" style={{ position: 'absolute', left: '66.6595%', top: '0px' }}>
                             <div className="portfolio-inner">
                                 <div className="portfolio-image">
                                     <img src="assets/images/portfolio/portfolio-16.jpg" alt="Image" />
@@ -491,7 +528,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
+                        <div className="tj-sec-heading sal-animate " data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">Optional Subtitle</span>
                             <h2 className="sec-title">Praise from Clients</h2>
@@ -499,8 +536,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="row align-items-center">
-                    <div className="col-lg-5">
-                        <div className="thumb-area" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
+                    <div className="col-lg-5 ">
+                        <div className="thumb-area sal-animate" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
                             <div className="swiper thumb-slider">
                                 <div className="swiper-wrapper thumb_slider">
                                     <div className="swiper-slide thumb_slide">
@@ -535,10 +572,16 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
-                        <div className="swiper thumb-slider2">
-                            <div className="swiper-wrapper">
-                                <div className="swiper-slide">
+                    <div className="col-lg-7 sal-animate" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
+                        <div className="swiper thumb-slider2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div className="swiper-wrapper" id="swiper-wrapper-a7e1b8a98c99a89e" aria-live="polite"  style={{
+    transitionDuration: '0ms',
+    transform: 'translate3d(-1512px, 0px, 0px)',
+  }}>
+                                <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3"   style={{
+    width: '746px',
+    marginRight: '10px',
+  }}>
                                     <div className="testimonial-slider-item">
                                         <div className="testimonial-rating">
                                             <ul className="dot-style">
@@ -636,7 +679,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="tj-sec-heading text-center" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-sec-heading text-center sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">How We Work</span>
                             <h2 className="sec-title">Meet Our Team</h2>
@@ -652,7 +695,7 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="tj-team-item-two" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                        <div className="tj-team-item-two sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <div className="team-image">
                                 <img src="assets/images/team/team-10.jpg" alt="Team" />
                             </div>
@@ -678,7 +721,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="tj-team-item-two" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        <div className="tj-team-item-two sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                             <div className="team-image">
                                 <img src="assets/images/team/team-11.jpg" alt="Team" />
                             </div>
@@ -704,7 +747,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="tj-team-item-two" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                        <div className="tj-team-item-two sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
                             <div className="team-image">
                                 <img src="assets/images/team/team-12.jpg" alt="Team" />
                             </div>
@@ -730,7 +773,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="tj-team-item-two" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                        <div className="tj-team-item-two sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
                             <div className="team-image">
                                 <img src="assets/images/team/team-13.jpg" alt="Team" />
                             </div>
@@ -768,7 +811,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="tj-video-area text-center">
+                        <div className="tj-video-area text-center ">
                             <div className="tj-video-popup">
                                 <div className="circle pulse video-icon">
                                     <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
@@ -800,7 +843,7 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="tj-sec-heading text-center" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-sec-heading text-center sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">Latest Blog</span>
                             <h2 className="sec-title">The best studio in the city</h2>
@@ -816,13 +859,13 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
-                        <div className="tj-blog-item-three" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-blog-item-three sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="100">
                             <div className="blog-image">
                                 <a href="blog-details.html"><img src="assets/images/blog/blog-15.jpg" alt="Image" /></a>
                             </div>
                             <div className="blog-content-area">
-                                <div className="blog-meta-three">
+                                <div className="blog-meta-three ">
                                     <span><a href="blog-details.html">Business</a></span>
                                     <span>May 22, 2023</span>
                                 </div>
@@ -837,7 +880,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <div className="tj-blog-item-three" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-blog-item-three sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="200">
                             <div className="blog-image">
                                 <a href="blog-details.html"><img src="assets/images/blog/blog-16.jpg" alt="Image" /></a>
@@ -857,7 +900,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <div className="tj-blog-item-three" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-blog-item-three sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="200">
                             <div className="blog-image">
                                 <a href="blog-details.html"><img src="assets/images/blog/blog-17.jpg" alt="Image" /></a>

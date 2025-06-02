@@ -157,7 +157,7 @@ const Navbar = () => {
                     <a href="/About_us">About Us</a>
                   </li>
                   <li>
-                    <a href="">Services</a>
+                    <a href="/Service">Services</a>
                   </li>
                   <li>
                     <a href="">Verify Certificate1</a>
