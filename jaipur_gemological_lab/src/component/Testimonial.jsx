@@ -1,7 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -39,7 +38,7 @@ export default function Testimonial() {
                 spaceBetween={30}
                 loop={true}
                 autoplay={{ delay: 8500 }}
-                pagination={{ clickable: true }}
+                pagination={{ clickable: true , el: '.swiper-pagination'}}
                 breakpoints={{
                   320: {
                     slidesPerView: 1,
@@ -259,7 +258,7 @@ export default function Testimonial() {
               </Swiper>
 
               {/* If you need a separate pagination container, uncomment below: */}
-              <div className="swiper-pagination"></div>
+              {/* <div className="swiper-pagination"></div> */}
             </div>
           </div>
         </div>
