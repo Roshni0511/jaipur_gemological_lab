@@ -154,7 +154,7 @@ const Navbar = () => {
                     <a href="">About Us</a>
                   </li>
                   <li className="has-dropdown">
-                    <a href="">Services</a>
+                    <a href="/Service">Services</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="">Services</a>
