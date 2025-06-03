@@ -21,9 +21,9 @@ const Home = () => {
                         <div className="hero-content-area " data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="400">
                             <div className="tj-sec-heading">
-                                <span className="white-sub-title">Services Platform</span>
+                                <span className="white-sub-title">Jaipur Solitare Lab</span>
                                 <h1 className="title">
-                                    The World’s top Creative <span className="black-color">Marketing Agency</span>
+                                    India <span className="black-color">Gemological & Research Leboratory</span>
                                 </h1>
                                 <div className="desc">
                                     <p>
