@@ -160,10 +160,10 @@ const Navbar = () => {
                     <a href="/Service">Services</a>
                   </li>
                   <li>
-                    <a href="">Verify Certificate1</a>
+                    <a href="/VerifyCertificate">Verify Certificate</a>
                   </li>
                    <li>
-                    <a href="">Contact Us</a>
+                    <a href="/Contact">Contact Us</a>
                   </li>
                   {/* <li className="has-dropdown">
                     <a href="">Services</a>
