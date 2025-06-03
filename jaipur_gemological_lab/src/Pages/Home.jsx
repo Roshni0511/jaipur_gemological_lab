@@ -520,7 +520,7 @@ const Home = () => {
                                 <div className="portfolio-single-item consulting finance" style={{ position: 'absolute', left: '33.3298%', top: '0px' }}>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="assets/images/portfolio/portfolio-17.jpg" alt="Image" />
+                                            <img src="https://www.rudraksha-ratna.com/assets/shared/Consultations/rudraksha-gems-recommendation.jpg" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -536,7 +536,7 @@ const Home = () => {
                                     </div>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="assets/images/portfolio/portfolio-18.jpg" alt="Image" />
+                                            <img src="https://gemsmantra.com/cdn/shop/files/7_Mukhi_Rudraksha_SKU1041R_3afef5b5-5019-442a-b038-fd63f8aa7162.jpg?v=1747740171&width=2048" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -556,7 +556,7 @@ const Home = () => {
                                 <div className="portfolio-single-item capital development" style={{ position: 'absolute', left: '66.6595%', top: '0px' }}>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="assets/images/portfolio/portfolio-16.jpg" alt="Image" />
+                                            <img src="https://brahmagems-media.s3.ap-south-1.amazonaws.com/77920/1738304645.png" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
