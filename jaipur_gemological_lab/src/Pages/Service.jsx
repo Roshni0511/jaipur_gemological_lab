@@ -73,7 +73,7 @@ const Service = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="tj-sec-heading text-center sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                        <div class="tj-sec-heading text-center " data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span class="sub-title"> Our Services</span>
                             <h2 class="sec-title">Service We Provide</h2>
@@ -88,7 +88,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="100">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -109,7 +109,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="200">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -130,7 +130,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="300">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -151,7 +151,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="400">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -172,7 +172,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="500">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -193,7 +193,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="600">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -214,7 +214,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="700">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -235,7 +235,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                    <div class="col-lg-3 col-md-6 col-sm-6 " data-sal="slide-up" data-sal-duration="1000"
                         data-sal-delay="700">
                         <div class="tj-service-item text-center">
                             <div class="service-inner">
@@ -277,8 +277,10 @@ const Service = () => {
             </div>
         </section>
         {/* <!-- end: Service Area --> */}
+<div className='mb-5'>
 
 <Testimonial />
+</div>
 
     </main>
 

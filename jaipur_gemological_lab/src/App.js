@@ -7,12 +7,16 @@ import About_us from './Pages/About_us';
 import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 import VerifyCertificate from './Pages/VerifyCertificate';
-
+import "sal.js/dist/sal.css";
 
 function App() {
   const [visible, setVisible] = useState(false);
   const pathRef = useRef(null);
-
+     useEffect(() => {
+    if (window.sal) {
+      window.sal(); // Call the global function after script is loaded
+    }
+  }, []);
   useEffect(() => {
     const path = pathRef.current;
     if (!path) return;
