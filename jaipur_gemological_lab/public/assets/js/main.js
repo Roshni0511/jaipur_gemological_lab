@@ -227,26 +227,31 @@ Mobile Menu Js
 	});
 
 	// Portfolio filter js
-	$("#portfolio-grid").imagesLoaded(function () {
-		$(".filter-menu").on("click", "button", function () {
-			var filterValue = $(this).attr("data-filter");
-			$grid.isotope({
-				filter: filterValue,
-			});
-		});
-		$(".filter-menu button").on("click", function (event) {
-			$(this).siblings(".active").removeClass("active");
-			$(this).addClass("active");
-			event.preventDefault();
-		});
-		var $grid = $("#portfolio-grid").isotope({
-			itemSelector: ".portfolio-single-item",
-			percentPosition: true,
-			masonry: {
-				columnWidth: ".portfolio-single-item",
-			},
-		});
-	});
+	  $(document).ready(function () {
+    var $grid = $('#portfolio-grid');
+
+    // Wait for images to be fully loaded
+    $grid.imagesLoaded(function () {
+      // Initialize Isotope
+      $grid.isotope({
+        itemSelector: '.portfolio-single-item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.portfolio-single-item',
+        },
+      });
+
+      // Filter buttons click event
+      $('.filter-menu').on('click', 'button', function (e) {
+        e.preventDefault();
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+
+        // Update active button styling
+        $(this).addClass('active').siblings().removeClass('active');
+      });
+    });
+  });
 	$(document).ready(function () {
 		startAnimation();
 		function startAnimation() {
@@ -350,9 +355,10 @@ Mobile Menu Js
 	});
 
 	// Video js
+$(document).ready(function () {
 	var popupvideos = $(".popup-videos-button");
 	if (popupvideos.length) {
-		$(".popup-videos-button").magnificPopup({
+		popupvideos.magnificPopup({
 			disableOn: 10,
 			type: "iframe",
 			mainClass: "mfp-fade",
@@ -361,6 +367,7 @@ Mobile Menu Js
 			fixedContentPos: false,
 		});
 	}
+});
 
 	// Fun Fact js
 	$(".odometer").appear(function () {

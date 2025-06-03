@@ -160,7 +160,7 @@ export default function About_us() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="contact-form-area">
-                            <div className="contact-left-content" data-sal="slide-right" data-sal-duration="1000"
+                            <div className="contact-left-content sal-animate" data-sal="slide-right" data-sal-duration="1000"
                                 data-sal-delay="300">
                                 <div className="tj-sec-heading">
                                     <span className="sub-title">Get In touch</span>
@@ -192,7 +192,7 @@ export default function About_us() {
                                     </div>
                                 </div>
                             </div>
-                            <form id="contact-form" className="contact-form-box" data-sal="slide-left"
+                            <form id="contact-form" className="contact-form-box  sal-animate" data-sal="slide-left"
                                 data-sal-duration="1000" data-sal-delay="300">
                                 <div className="form-input">
                                     <label>Your Name</label>

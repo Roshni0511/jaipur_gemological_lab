@@ -8,7 +8,7 @@ export default function Testimonial() {
   return (
     <div>
       {/* <!-- start: Testimonial Area --> */}
-      <section className="tj-testimonial-section">
+      <section className="tj-testimonial-section pb-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -53,7 +53,7 @@ export default function Testimonial() {
                     slidesPerView: 2,
                   },
                   1024: {
-                    slidesPerView: 3,
+                    slidesPerView: 2.5,
                   },
                 }}
                 modules={[Autoplay, Pagination]}
@@ -255,10 +255,11 @@ export default function Testimonial() {
                     </p>
                   </div>
                 </SwiperSlide>
+                
               </Swiper>
+              <div className="swiper-pagination"></div>
 
-              {/* If you need a separate pagination container, uncomment below: */}
-              {/* <div className="swiper-pagination"></div> */}
+              
             </div>
           </div>
         </div>

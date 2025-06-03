@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Counter_home from '../component/Counter_home'
+
 
 const Home = () => {
   return (
@@ -371,40 +373,8 @@ const Home = () => {
         {/* <!-- end: service Area --> */}
 
      {/* <!-- start: Counter Area --> */}
-        <section class="tj-counter-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="counter-content-area ">
-                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                                <div class="tj-count"><span class="odometer" data-count="254">0</span>+</div>
-                                <span class="sub-title">Project Complete</span>
-                            </div>
-                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                <div class="tj-count"><span class="odometer" data-count="164">0</span>+</div>
-                                <span class="sub-title">Quality Team Member</span>
-                            </div>
-                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
-                                <div class="tj-count"><span class="odometer" data-count="433">0</span>+</div>
-                                <span class="sub-title">Awards Winning</span>
-                            </div>
-                            <div class="counter-item sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                                <div class="tj-count"><span class="odometer" data-count="30">0</span>+</div>
-                                <span class="sub-title">Years Of Experience</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="counter-section-shape">
-                <div class="counter_shape">
-                    <img src="assets/images/shape/counter-shape.svg" alt="Shape" />
-                </div>
-                <div class="counter_shape1">
-                    <img src="assets/images/shape/counter-shape1.svg" alt="Shape" />
-                </div>
-            </div>
-        </section>
+    <Counter_home />
+       
         {/* <!-- end: Counter Area --> */}
 
           {/* <!-- Start: Portfolio Area --> */}
@@ -433,9 +403,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row" id="portfolio-grid" style={{ position: 'relative', height: '568.375px' }}>
+                <div className="row" id="portfolio-grid" >
                     <div className="col-lg-4 col-md-6">
-                        <div className="portfolio-single-item finance" style={{position:'absolute',left:'0%',top:'0PX'}} >
+                        <div className="portfolio-single-item finance"  >
                             <div className="portfolio-inner">
                                 <div className="portfolio-image">
                                     <img src="assets/images/portfolio/portfolio-15.jpg" alt="Image" />
@@ -679,7 +649,8 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="tj-sec-heading text-center sal-animate" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-sec-heading text-
+                        center sal-animate" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="600">
                             <span className="secondary-color">How We Work</span>
                             <h2 className="sec-title">Meet Our Team</h2>

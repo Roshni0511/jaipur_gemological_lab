@@ -1,0 +1,114 @@
+/* counter start  */
+.tj-counter-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+  position: relative;
+}
+
+.counter-content-area {
+  display: flex !important;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.counter-item {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 200px;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tj-count {
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #555;
+  display: block;
+  margin-top: 5px;
+}
+
+.counter-section-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.counter_shape,
+.counter_shape1 {
+  position: absolute;
+}
+
+.counter_shape {
+  left: 0;
+  bottom: 0;
+}
+
+.counter_shape1 {
+  right: 0;
+  bottom: 0;
+}
+.counter-content-area .counter-item{
+    border-right: 0px !important;
+    padding-left: 0px !important;
+}
+.counter-content-area .counter-item .sub-title{
+    font-size: 18px !important;
+}
+/* counter end  */
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.progress-circle {
+  transform: rotate(-90deg);
+  /* rotate so progress starts at top */
+}
+
+.arrow-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #555;
+  pointer-events: none;
+}
+
+/* Optional hover styles */
+.scroll-to-top:hover .progress-circle {
+  stroke: #222;
+}
+.scroll-to-top:hover .arrow-up {
+  color: #222;
+}
+
