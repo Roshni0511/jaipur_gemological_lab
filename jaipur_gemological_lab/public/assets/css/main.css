@@ -1447,7 +1447,7 @@ START: Theme Hero CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--tj-color-light-2);
+  /* background: var(--tj-color-light-2); */
   mix-blend-mode: color;
 }
 .tj-hero-section-three .hero-content-area {
