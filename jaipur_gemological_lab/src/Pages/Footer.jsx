@@ -19,13 +19,12 @@ const Footer = () => {
                         <div class="footer-widget footer1-col-1">
                             <div class="footer-content-info">
                                 <div class="footer-logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/footer-logo2.png" alt="Logo" />
+                                    <a href="/">
+                                        <img src="/assets/pic/jsl_logo.png" alt="Logo" />
                                     </a>
                                 </div>
                                 <p>
-                                    All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
-                                    as necessary, making this the first true generator on the Internet.
+                                   Rudraksha and Gemstone Testing Laboratory is a certified Dehradun-based lab offering authentic testing for Rudraksha, gemstones, malas, and diamonds.
                                 </p>
                                 <div class="footer-share">
                                     <ul class="dot-style">
@@ -48,47 +47,34 @@ const Footer = () => {
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="footer-widget footer1-col-2">
-                            <h4 class="footer_title">Top Links</h4>
+                            <h4 class="footer_title">Quick Links</h4>
                             <div class="widget_nav_menu">
                                 <div class="footer-menu">
                                     <ul>
-                                        <li><a href="#">How it’s Work</a></li>
-                                        <li><a href="#">Partners</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Case Studies</a></li>
-                                        <li><a href="#">Priving</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/About_us">About Us</a></li>
+                                        <li><a href="/Service">Services</a></li>
+                                        <li><a href="/VerifyCertificate">Verify Certificate</a></li>
+                                        <li><a href="/Contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="footer-widget footer1-col-5">
-                            <h4 class="footer_title">Contact Us</h4>
-                            <div class="widget_contact_menu">
+                        <div class="footer-widget footer1-col-2">
+                            <h4 class="footer_title">Policy</h4>
+                            <div class="widget_nav_menu">
                                 <div class="footer-menu">
                                     <ul>
-                                        <li>
-                                            <span><i class="fa-sharp fa-regular fa-envelope"></i></span>
-                                            <a href="mailto:Info@gmail.com">Info@gmail.com</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fa-solid fa-globe"></i></span><a
-                                                href="#">www.website.com</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
-                                            <a href="#">25 Marion, Columbia</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fa-solid fa-phone-volume"></i></span>
-                                            <a href="tel:+00123456789">+ 00 123 456 789</a>
-                                        </li>
+                                        <li><a href="/">Privacy Policy</a></li>
+                                        <li><a href="/">Term & Conditions</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
+                   
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer-widget footer1-col-4">
                             <h4 class="footer_title">Photo Gallery</h4>
@@ -139,20 +125,19 @@ const Footer = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="copyright-content-area">
+                        <div class="copyright-content-area justify-content-center">
                             <div class="copyright-left-content">
                                 <p>
-                                    Copyright © 2023 <a href="#" target="_blank"> ThemeJunction. </a> All Rights
-                                    Reserved.
+                                   © Copyright 2023 | All Rights Reserved |<a href="https://successinnovativetechnologiespvtltd.com/" target="_blank"> Proudly Powered by Success Innovative Technologies Pvt Ltd </a> 
                                 </p>
                             </div>
-                            <div class="copyright-menu">
+                            {/* <div class="copyright-menu">
                                 <ul>
                                     <li><a href="#">Setting & Privacy</a></li>
                                     <li><a href="#">FAQ</a></li>
                                     <li><a href="#">Support</a></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
