@@ -70,53 +70,53 @@ const Termsandcondition = () => {
     <div className='tj-portfolio-section-three'>
   <div>
     <div className="container">
-      <h2 className='sec-title'>Terms & Conditions – Jaipur Solitaire Lab</h2>
-      <p>Welcome to Jaipur Solitaire Lab. By using our website or services, you agree to the following Terms & Conditions. Please read them carefully before proceeding.</p>
+      <h2 className='sec-title' style={{marginBottom:'30px'}}>Terms & Conditions – Jaipur Solitaire Lab</h2>
+      <p >Welcome to Jaipur Solitaire Lab. By using our website or services, you agree to the following Terms & Conditions. Please read them carefully before proceeding.</p>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>1. Service Overview</h4>
         <p>Jaipur Solitaire Lab offers gem testing, grading, and certification services. Our assessments are conducted by qualified professionals using standard industry tools and methods.</p>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>2. User Responsibility</h4>
-        <ul className='mb-2'>
+        <ul className='mb-2' style={{listStyle:'none'}}>
           <li className='mb-1'>You must provide accurate and complete information when submitting gemstones for testing or when contacting us.</li>
           <li>You agree not to misuse the website, services, or falsely represent gem certifications.</li>
         </ul>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>3. Report Accuracy</h4>
         <p>All test reports are based on the results obtained from standard laboratory conditions and equipment. However, Jaipur Solitaire Lab is not responsible for any discrepancies that may arise due to external environmental factors or customer misuse.</p>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>4. Intellectual Property</h4>
         <p>All website content, logos, reports, and visuals are the exclusive property of Jaipur Solitaire Lab. No part of the website or report may be copied, reused, or reproduced without written permission.</p>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>5. Limitation of Liability</h4>
         <p>Jaipur Solitaire Lab is not liable for any direct, indirect, or consequential damages arising out of the use or misuse of the website, our test reports, or any delay in service.</p>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>6. Payment & Refund Policy</h4>
         <p>All payments for lab services must be made in advance unless otherwise agreed. Once the testing process has begun, no refund will be issued.</p>
       </div>
 
-      <div className='mb-3'>
+      <div  style={{marginBottom:'30px'}}>
         <h4>7. Modifications</h4>
         <p>We reserve the right to modify these Terms & Conditions at any time. Changes will be updated on this page, and continued use of the site constitutes agreement to the revised terms.</p>
       </div>
 
-      <div className='mb-3'>
+      <div   style={{marginBottom:'30px'}}>
         <h4>8. Governing Law</h4>
         <p>These Terms & Conditions are governed by and construed in accordance with the laws of India. Any disputes will be subject to the jurisdiction of Surat, Gujarat.</p>
       </div>
 
-      <div className='mb-3'>
+      <div style={{marginBottom:'40px'}}>
         <h4>9. Contact Information</h4>
         <p>For any questions about these Terms & Conditions, you can reach us at:</p>
         <p>📧 Email: <a href="mailto:info@jaipursolitairelab.in">info@jaipursolitairelab.in</a></p>

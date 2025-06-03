@@ -13,7 +13,7 @@ const Home = () => {
                 {/* <!-- start: Hero Area --> */}
                 <section className="tj-hero-section-three">
                     <div className="hero-lg-image">
-                        <img src="assets/images/banner-bg/hero-image.jpg" alt="Image" />
+                        <img src="/assets/pic/numerology-concept-with-hands-holding-pebbles.jpg" alt="Image" />
                     </div>
                     <div className="container">
                         <div className="row align-items-center">
