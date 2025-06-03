@@ -9,7 +9,7 @@ const Footer = () => {
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="contact-right-content sal-animate" data-sal="slide-right" data-sal-duration="1000"
+                        <div class="contact-right-content " data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
                             <div class="tj-sec-heading">
                                 <span class="white-sub-title">Get in touch</span>
@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div class="col-lg-6">
                         <form id="contact-form2">
-                            <div class="contact-form-box3 sal-animate" data-sal="slide-left" data-sal-duration="1000"
+                            <div class="contact-form-box3 " data-sal="slide-left" data-sal-duration="1000"
                                 data-sal-delay="600">
                                 <div class="row">
                                     <div class="col-lg-6">

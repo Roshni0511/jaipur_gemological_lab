@@ -72,7 +72,7 @@ const Contact = () => {
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-form-area ">
-                        <div class="contact-left-content sal-animate" data-sal="slide-right" data-sal-duration="1000"
+                        <div class="contact-left-content " data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <div class="tj-sec-heading">
                                 <span class="sub-title">Get In touch</span>
@@ -104,7 +104,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        <form id="contact-form" class="contact-form-box sal-animate" data-sal="slide-left" data-sal-duration="1000"
+                        <form id="contact-form" class="contact-form-box " data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="300">
                             <div class="form-input">
                                 <label>Your Name</label>

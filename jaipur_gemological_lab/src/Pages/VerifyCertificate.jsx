@@ -9,7 +9,7 @@ const VerifyCertificate = () => {
             <div className="col-lg-8">
               <form id="contact-form2">
                 <div
-                  className="contact-form-box3 sal-animate"
+                  className="contact-form-box3 "
                   data-sal="slide-left"
                   data-sal-duration="1000"
                   data-sal-delay="600"

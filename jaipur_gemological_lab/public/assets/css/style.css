@@ -90,8 +90,8 @@
 }
 
 .progress-circle {
-  transform: rotate(-90deg);
-  /* rotate so progress starts at top */
+  transform: rotate(360deg);
+
 }
 
 .arrow-up {
@@ -100,15 +100,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
-  color: #555;
+  color: #6d4ffd;
   pointer-events: none;
 }
 
 /* Optional hover styles */
 .scroll-to-top:hover .progress-circle {
-  stroke: #222;
+  stroke: #6d4ffd;
 }
 .scroll-to-top:hover .arrow-up {
-  color: #222;
+  color: #6d4ffd;
 }
 
