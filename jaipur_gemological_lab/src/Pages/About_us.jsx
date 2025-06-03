@@ -116,25 +116,23 @@ export default function About_us() {
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-12">
-                        <div className="about-content-one sal-animate" data-sal="slide-left" data-sal-duration="1000"
+                        <div className="about-content-one " data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="600">
                             <div className="tj-sec-heading">
                                 <span className="sub-title"> About Us</span>
-                                <h2 className="sec-title">Making Your Business More Unique</h2>
+                                <p className="sec-title" style={{color:'#3a3a3a',fontWeight:'400',fontSize:'17px'}}>
+IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. IGRL deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
                                 <div className="desc">
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form, by injected humour, or
-                                        randomised words which don't look even slightly believable.
+                       Our Advanced Lab assures you to provide better report always. We test every product with all Latest & Quality Equipments which ensures that you’ll get reliable reports with satisfaction.
                                     </p>
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form,
+                                  We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it
                                     </p>
-                                    <p>
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                    </p>
+                                  <ul>
+                                    <li>Special Prices for Bulk Testing of Products.</li>
+                                    <li>Special Brand Name Box Packing available</li>
+                                  </ul>
                                 </div>
                                 <div className="about-button d-flex">
                                     <a href="about-us.html" className="tj-secondary-btn btn-border"><span>Read
@@ -152,6 +150,184 @@ export default function About_us() {
         {/* <!-- end: About Area --> */}
 
         <Testimonial />
+
+         {/* <!-- start: Service Area --> */}
+        <section class="tj-service-section-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
+                            data-sal-delay="600">
+                            <span class="sub-title">Our Services</span>
+                            <h2 class="sec-title">
+                                We Empower Clients To <span class="active-color">Be Loved</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                            data-sal-delay="100">
+                            <div class="service-content-info">
+                                <div class="service-left-content">
+                                    <div class="service-icon">
+                                        <i class="flaticon-digital-marketing"></i>
+                                    </div>
+                                    <div class="service-text">
+                                        <h3 class="title-link">
+                                            <a class="sec-title" href="service-details.html">Digital Marketing</a>
+                                        </h3>
+                                        <span class="number">01</span>
+                                    </div>
+                                </div>
+                                <div class="service-wrapper">
+                                    <img src="assets/images/service/service-1.jpg" alt="Image" />
+                                </div>
+                            </div>
+                            <div class="service-middle-content">
+                                <div class="service-text">
+                                    <div class="desc">
+                                        <p>
+                                            It is a long established fact that a the readable content of a page when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more.
+                                        </p>
+                                    </div>
+                                    <div class="service-tags">
+                                        <span class="btn text-btn">Creative</span>
+                                        <span class="btn text-btn">Accessibility</span>
+                                    </div>
+                                </div>
+                                <div class="service-arrow">
+                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                            data-sal-delay="200">
+                            <div class="service-content-info">
+                                <div class="service-left-content">
+                                    <div class="service-icon">
+                                        <i class="flaticon-enlargement"></i>
+                                    </div>
+                                    <div class="service-text">
+                                        <h3 class="title-link">
+                                            <a class="sec-title" href="service-details.html">Web Developmen</a>
+                                        </h3>
+                                        <span class="number">02</span>
+                                    </div>
+                                </div>
+                                <div class="service-wrapper">
+                                    <img src="assets/images/service/service-3.jpg" alt="Image" />
+                                </div>
+                            </div>
+                            <div class="service-middle-content">
+                                <div class="service-text">
+                                    <div class="desc">
+                                        <p>
+                                            It is a long established fact that a the readable content of a page when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more.
+                                        </p>
+                                    </div>
+                                    <div class="service-tags">
+                                        <span class="btn text-btn">Creative</span>
+                                        <span class="btn text-btn">Accessibility</span>
+                                    </div>
+                                </div>
+                                <div class="service-arrow">
+                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                            data-sal-delay="300">
+                            <div class="service-content-info">
+                                <div class="service-left-content">
+                                    <div class="service-icon">
+                                        <i class="flaticon-vip"></i>
+                                    </div>
+                                    <div class="service-text">
+                                        <h3 class="title-link">
+                                            <a class="sec-title" href="service-details.html">Branding & SEO</a>
+                                        </h3>
+                                        <span class="number">03</span>
+                                    </div>
+                                </div>
+                                <div class="service-wrapper">
+                                    <img src="assets/images/service/service-1.jpg" alt="Image" />
+                                </div>
+                            </div>
+                            <div class="service-middle-content">
+                                <div class="service-text">
+                                    <div class="desc">
+                                        <p>
+                                            It is a long established fact that a the readable content of a page when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more.
+                                        </p>
+                                    </div>
+                                    <div class="service-tags">
+                                        <span class="btn text-btn">Creative</span>
+                                        <span class="btn text-btn">Accessibility</span>
+                                    </div>
+                                </div>
+                                <div class="service-arrow">
+                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                            data-sal-delay="400">
+                            <div class="service-content-info">
+                                <div class="service-left-content">
+                                    <div class="service-icon">
+                                        <i class="flaticon-graphic-designer"></i>
+                                    </div>
+                                    <div class="service-text">
+                                        <h3 class="title-link">
+                                            <a class="sec-title" href="service-details.html">UX/UI Design</a>
+                                        </h3>
+                                        <span class="number">04</span>
+                                    </div>
+                                </div>
+                                <div class="service-wrapper">
+                                    <img src="assets/images/service/service-4.jpg" alt="Image" />
+                                </div>
+                            </div>
+                            <div class="service-middle-content">
+                                <div class="service-text">
+                                    <div class="desc">
+                                        <p>
+                                            It is a long established fact that a the readable content of a page when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more.
+                                        </p>
+                                    </div>
+                                    <div class="service-tags">
+                                        <span class="btn text-btn">Creative</span>
+                                        <span class="btn text-btn">Accessibility</span>
+                                    </div>
+                                </div>
+                                <div class="service-arrow">
+                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-group-shape">
+                <div class="service-shape pulse">
+                    <img src="assets/images/shape/shape-42.svg" alt="Shape" />
+                </div>
+                <div class="service-shape1 pulse">
+                    <img src="assets/images/shape/shape-42.svg" alt="Shape" />
+                </div>
+            </div>
+        </section>
+        {/* <!-- end: Service Area --> */}
        
 
         {/* <!-- start: Contact Area --> */}
@@ -160,7 +336,7 @@ export default function About_us() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="contact-form-area">
-                            <div className="contact-left-content sal-animate" data-sal="slide-right" data-sal-duration="1000"
+                            <div className="contact-left-content " data-sal="slide-right" data-sal-duration="1000"
                                 data-sal-delay="300">
                                 <div className="tj-sec-heading">
                                     <span className="sub-title">Get In touch</span>
@@ -192,7 +368,7 @@ export default function About_us() {
                                     </div>
                                 </div>
                             </div>
-                            <form id="contact-form" className="contact-form-box  sal-animate" data-sal="slide-left"
+                            <form id="contact-form" className="contact-form-box  " data-sal="slide-left"
                                 data-sal-duration="1000" data-sal-delay="300">
                                 <div className="form-input">
                                     <label>Your Name</label>
