@@ -120,15 +120,17 @@ export default function About_us() {
                             data-sal-delay="600">
                             <div className="tj-sec-heading">
                                 <span className="sub-title"> About Us</span>
-                                <p className="sec-title" style={{color:'#3a3a3a',fontWeight:'400',fontSize:'17px'}}>
-IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. IGRL deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
+                                <h2 className="sec-title" > Certified Gems & Rudraksh Experts</h2>
+                                
                                 <div className="desc">
+                                    <p >
+IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. IGRL deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
                                     <p>
                        Our Advanced Lab assures you to provide better report always. We test every product with all Latest & Quality Equipments which ensures that you’ll get reliable reports with satisfaction.
                                     </p>
-                                    <p>
+                                    {/* <p>
                                   We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it
-                                    </p>
+                                    </p> */}
                                   <ul>
                                     <li>Special Prices for Bulk Testing of Products.</li>
                                     <li>Special Brand Name Box Packing available</li>
@@ -158,9 +160,9 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                     <div class="col-lg-12">
                         <div class="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
-                            <span class="sub-title">Our Services</span>
+                            <span class="sub-title">Certified Trust</span>
                             <h2 class="sec-title">
-                                We Empower Clients To <span class="active-color">Be Loved</span>
+                                IGRL Gems – Our Identity, <span class="active-color">Your Trust </span>
                             </h2>
                         </div>
                     </div>
@@ -176,7 +178,7 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                                     </div>
                                     <div class="service-text">
                                         <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">Digital Marketing</a>
+                                            <a class="sec-title" href="service-details.html">About IGRL Gems</a>
                                         </h3>
                                         <span class="number">01</span>
                                     </div>
@@ -189,18 +191,16 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                                 <div class="service-text">
                                     <div class="desc">
                                         <p>
-                                            It is a long established fact that a the readable content of a page when
-                                            looking at its layout. The point of using Lorem Ipsum is that it has a
-                                            more.
+                                      I also want to thank you for you swift, professional, informative and friendly service, it is refreshing and comforting to know that there are people out there that you can trust and who care about the service that they give as well the quality of the product that they sell.
                                         </p>
                                     </div>
-                                    <div class="service-tags">
+                                    {/* <div class="service-tags">
                                         <span class="btn text-btn">Creative</span>
                                         <span class="btn text-btn">Accessibility</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div class="service-arrow">
-                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                    <a href="/About_us"><i class="flaticon-next"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                                     </div>
                                     <div class="service-text">
                                         <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">Web Developmen</a>
+                                            <a class="sec-title" href="service-details.html">Why Choose Us</a>
                                         </h3>
                                         <span class="number">02</span>
                                     </div>
@@ -226,95 +226,20 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                                 <div class="service-text">
                                     <div class="desc">
                                         <p>
-                                            It is a long established fact that a the readable content of a page when
-                                            looking at its layout. The point of using Lorem Ipsum is that it has a
-                                            more.
+                                          We know choosing the perfect gemstone is an extremely important decision. We aim to make our customer’s search as easy as possible and to educate the consumer about the differences between a natural and certified gemstone and an artificially enhanced or synthetic gem. Simply put, quality, rarity, and value are the cornerstones of our gemstone business.
                                         </p>
                                     </div>
-                                    <div class="service-tags">
+                                    {/* <div class="service-tags">
                                         <span class="btn text-btn">Creative</span>
                                         <span class="btn text-btn">Accessibility</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div class="service-arrow">
-                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
+                                    <a href="/About_us"><i class="flaticon-next"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
-                            data-sal-delay="300">
-                            <div class="service-content-info">
-                                <div class="service-left-content">
-                                    <div class="service-icon">
-                                        <i class="flaticon-vip"></i>
-                                    </div>
-                                    <div class="service-text">
-                                        <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">Branding & SEO</a>
-                                        </h3>
-                                        <span class="number">03</span>
-                                    </div>
-                                </div>
-                                <div class="service-wrapper">
-                                    <img src="assets/images/service/service-1.jpg" alt="Image" />
-                                </div>
-                            </div>
-                            <div class="service-middle-content">
-                                <div class="service-text">
-                                    <div class="desc">
-                                        <p>
-                                            It is a long established fact that a the readable content of a page when
-                                            looking at its layout. The point of using Lorem Ipsum is that it has a
-                                            more.
-                                        </p>
-                                    </div>
-                                    <div class="service-tags">
-                                        <span class="btn text-btn">Creative</span>
-                                        <span class="btn text-btn">Accessibility</span>
-                                    </div>
-                                </div>
-                                <div class="service-arrow">
-                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
-                            data-sal-delay="400">
-                            <div class="service-content-info">
-                                <div class="service-left-content">
-                                    <div class="service-icon">
-                                        <i class="flaticon-graphic-designer"></i>
-                                    </div>
-                                    <div class="service-text">
-                                        <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">UX/UI Design</a>
-                                        </h3>
-                                        <span class="number">04</span>
-                                    </div>
-                                </div>
-                                <div class="service-wrapper">
-                                    <img src="assets/images/service/service-4.jpg" alt="Image" />
-                                </div>
-                            </div>
-                            <div class="service-middle-content">
-                                <div class="service-text">
-                                    <div class="desc">
-                                        <p>
-                                            It is a long established fact that a the readable content of a page when
-                                            looking at its layout. The point of using Lorem Ipsum is that it has a
-                                            more.
-                                        </p>
-                                    </div>
-                                    <div class="service-tags">
-                                        <span class="btn text-btn">Creative</span>
-                                        <span class="btn text-btn">Accessibility</span>
-                                    </div>
-                                </div>
-                                <div class="service-arrow">
-                                    <a href="service-details.html"><i class="flaticon-next"></i></a>
-                                </div>
-                            </div>
-                        </div>
+              
                     </div>
                 </div>
             </div>
