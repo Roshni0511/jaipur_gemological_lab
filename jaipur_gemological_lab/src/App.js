@@ -8,6 +8,8 @@ import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 import VerifyCertificate from './Pages/VerifyCertificate';
 import "sal.js/dist/sal.css";
+import Privacypolicy from './Pages/Privacypolicy';
+import Termsandcondition from './Pages/Termsandcondition';
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -71,6 +73,8 @@ function App() {
                <Route path='/Service' element={<Service />}/>
                <Route path='/VerifyCertificate' element={<VerifyCertificate />}/>
                <Route path='/Contact' element={<Contact />}/>
+               <Route path='/Privacypolicy' element={<Privacypolicy />}/>
+               <Route path='/Termsandcondition' element={<Termsandcondition />}/>
             </Routes>
 
              {/* <!-- start: Scroll Area --> */}
