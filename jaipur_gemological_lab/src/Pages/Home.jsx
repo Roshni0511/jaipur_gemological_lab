@@ -23,16 +23,15 @@ const Home = () => {
                             <div className="tj-sec-heading">
                                 <span className="white-sub-title">Jaipur Solitare Lab</span>
                                 <h1 className="title">
-                                    India <span className="black-color">Gemological & Research Leboratory</span>
+                                    Trusted <span className="black-color">Gem & Rudraksha Testing <br/> Lab</span> in India
                                 </h1>
                                 <div className="desc">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.
+                                       Jaipur Solitare Lab (JSL) is a trusted Indian lab offering certified testing of gemstones, Rudraksha, diamonds, and malas with accurate and reliable results.
                                     </p>
                                 </div>
                                 <div className="hero-button d-flex">
-                                    <a href="" className="btn tj-black-btn-two">Get started</a>
+                                    <a href="/Contact" className="btn tj-black-btn-two">Get started</a>
                                 </div>
                             </div>
                         </div>
@@ -94,18 +93,17 @@ const Home = () => {
                         <div className="about-content-three " data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="600">
                             <div className="tj-sec-heading">
-                                <span className="secondary-color"> About Us</span>
-                                <h2 className="sec-title">Unlock Revenue Growth for Your Business.</h2>
+                                <span className="secondary-color">Gems Testing</span>
+                                <h2 className="sec-title">Authenticity Guaranteed with Certification</h2>
                                 <div className="desc">
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the
-                                        majority have suffered alteration in some form, by injected humor.
+                                        We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it.
                                     </p>
                                 </div>
                                 <div className="about-content">
                                     <div className="about-item">
                                         <div className="about-icon hover-shape-border">
-                                            <i className="flaticon-profile"></i>
+                                             <i className="fa-solid fa-gem"></i>
                                             <div className="icon-shape">
                                                 <span className="border-shadow shadow-1"></span>
                                                 <span className="border-shadow shadow-2"></span>
@@ -114,16 +112,15 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className="about-text">
-                                            <h5 className="title">Efficiency & Management</h5>
+                                            <h5 className="title">Daily Gemstone Arrivals</h5>
                                             <p>
-                                                There are many variations of passages of Lorem Ipsum available, but
-                                                the majority. giving information on its origins,
+                                                Check out our daily new gemstone arrivals! We update our inventory every day, so visit often—these gems won’t last long.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="about-item">
                                         <div className="about-icon hover-shape-border">
-                                            <i className="flaticon-badge"></i>
+                                             <i className="fa-solid fa-star"></i>
                                             <div className="icon-shape">
                                                 <span className="border-shadow shadow-1"></span>
                                                 <span className="border-shadow shadow-2"></span>
@@ -132,10 +129,9 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className="about-text">
-                                            <h5 className="title">Commitment & Professional</h5>
+                                            <h5 className="title">Fresh Gemstone Collections</h5>
                                             <p>
-                                                There are many variations of passages of Lorem Ipsum available, but
-                                                the majority.
+                                                Discover our latest gemstone additions updated daily. Stay tuned and explore our ever-changing selection before these unique pieces are gone!
                                             </p>
                                         </div>
                                     </div>
@@ -283,22 +279,19 @@ const Home = () => {
                             data-sal-delay="600">
                             <span className="secondary-color">Our Services</span>
                             <h2 className="sec-title">Service We Provide</h2>
-                            <p>
-                                It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                the release
+                            <p >
+                               We are dedicated to providing top-quality testing services for gemstones, rudrakshas, malas, and diamonds. Our expert team ensures accurate, reliable, and certified reports to help you verify the authenticity and quality of your precious items with confidence.
                             </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                         <div className="tj-service-item-three">
                             <div className="service-icon">
-                                <i className="flaticon-ui-design"></i>
+                               <img style={{height:"45px"}} src="/assets/pic/diamond1.png" />
                             </div>
-                            <h4 className="title"><a href="">Mobile Apps</a></h4>
+                            <h4 className="title"><a href="">we testing gems stone</a></h4>
                             <p>
-                                look like readable English. Many desktop publishing packages and web page editors
-                                now use
+                                We testing gemstone like natural Yellow sapphire (Pukhraj),Blue sapphire (Neelam),Ruby (Manik),Emerald (Panna),Hessonite garnet (Gommed),Cat’s eye (Ketu),Pearl (Moti),Coral (Munga) etc.
                             </p>
                             <div className="border-inner"></div>
                         </div>
@@ -306,12 +299,11 @@ const Home = () => {
                     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                         <div className="tj-service-item-three">
                             <div className="service-icon">
-                                <i className="flaticon-megaphone"></i>
+                                 <img style={{height:"45px"}} src="/assets/pic/diamond2.png" />
                             </div>
-                            <h4 className="title"><a href="">Digital Marketing</a></h4>
+                            <h4 className="title"><a href="">we testing diamond jewellery</a></h4>
                             <p>
-                                look like readable English. Many desktop publishing packages and web page editors
-                                now use
+                                We testing Diamond Jewellery like test by clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.
                             </p>
                             <div className="border-inner"></div>
                         </div>
@@ -320,12 +312,11 @@ const Home = () => {
                         <div className="tj-service-item-three">
                             <div className="border-inner2"></div>
                             <div className="service-icon">
-                                <i className="flaticon-design"></i>
+                                <img style={{height:"45px"}} src="/assets/pic/rudrakash1.png" />
                             </div>
-                            <h4 className="title"><a href="">Logo Design</a></h4>
+                            <h4 className="title"><a href="">we testing rudraksh</a></h4>
                             <p>
-                                look like readable English. Many desktop publishing packages and web page editors
-                                now use
+                                We testing Rudraksh like test X-ray based testing & conform to how many natural face & seeds in Rudraksh. Testing IN 1 TO 21 mukhi ganesh, gaurisankar, trijeurti, nirakar, ekavinshat etc.
                             </p>
                         </div>
                     </div>
@@ -333,12 +324,11 @@ const Home = () => {
                         <div className="tj-service-item-three">
                             <div className="border-inner2"></div>
                             <div className="service-icon">
-                                <i className="flaticon-graphic-design-1"></i>
+                                 <img style={{height:"45px"}} src="/assets/pic/rudrakash2.png" />
                             </div>
-                            <h4 className="title"><a href="">Web Design</a></h4>
+                            <h4 className="title"><a href="">we testing gemstone & rudraksh mala</a></h4>
                             <p>
-                                look like readable English. Many desktop publishing packages and web page editors
-                                now use
+                                We testing Rudraksh mala like test X-ray based testing in rudraksh mala & gemstone like crystal (Sphatik), coral (Munga), dyad coral, dyad quartaz, navratna (Navgrah), pearl (Moti), crystal, mala etc.
                             </p>
                         </div>
                     </div>
