@@ -26,8 +26,8 @@ const VerifyCertificate = () => {
                   </div>
 
                  
-                     <div class="form-input" style={{ display:'flex',justifyContent:'center' }} >
-                                            <input type="text" class="form__input" placeholder="Enter Stock Code" name="con2Name" style={{width:'100%',padding:'15px 20px'}}/>
+                     <div className="form-input" style={{ display:'flex',justifyContent:'center' }} >
+                                            <input type="text" className="form__input" placeholder="Enter Stock Code" name="con2Name" style={{width:'100%',padding:'15px 20px'}}/>
                                         </div>
 <a href="/" style={{ width: '100%' }}>
   <div className="tj-contact-button" style={{ display: 'flex', justifyContent: 'center' }}>

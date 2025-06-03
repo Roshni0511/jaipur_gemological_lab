@@ -19,7 +19,7 @@ export default function About_us() {
                             </div>
                             <div className="breadcrumb-link">
                                 <span>
-                                    <a href="index.html">
+                                    <a href="/">
                                         <span>Home</span>
                                     </a>
                                 </span>
@@ -34,13 +34,13 @@ export default function About_us() {
             </div>
             <div className="tj-breadcrumb-shape">
                 <div className="breadcrumb-shape-one">
-                    <img src="assets/images/shape/breadcrumb-1.svg" alt="Shape" />
+                    <img src="assets/images/shape/shape-55.svg" alt="Shape" />
                 </div>
                 <div className="breadcrumb-shape-two">
                     <img src="assets/images/shape/breadcrumb-2.svg" alt="Shape" />
                 </div>
                 <div className="breadcrumb-shape-1 pulse">
-                    <img src="assets/images/shape/shape-7.svg" alt="Icon" />
+                    <img src="assets/images/shape/shape-55.svg" alt="Icon" />
                 </div>
                 <div className="breadcrumb-shape-2 shake-y">
                     <img src="assets/images/shape/shape-4.svg" alt="Icon" />
@@ -124,7 +124,7 @@ export default function About_us() {
                                 
                                 <div className="desc">
                                     <p >
-IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. IGRL deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
+JSL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. JSL deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
                                     <p>
                        Our Advanced Lab assures you to provide better report always. We test every product with all Latest & Quality Equipments which ensures that you’ll get reliable reports with satisfaction.
                                     </p>
@@ -137,7 +137,7 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                                   </ul>
                                 </div>
                                 <div className="about-button d-flex">
-                                    <a href="about-us.html" className="tj-secondary-btn btn-border"><span>Read
+                                    <a href="" className="tj-secondary-btn btn-border"><span>Read
                                             More</span></a>
                                 </div>
                             </div>
@@ -154,88 +154,88 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
         <Testimonial />
 
          {/* <!-- start: Service Area --> */}
-        <section class="tj-service-section-two">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
+        <section className="tj-service-section-two">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="600">
-                            <span class="sub-title">Certified Trust</span>
-                            <h2 class="sec-title">
-                                IGRL Gems – Our Identity, <span class="active-color">Your Trust </span>
+                            <span className="sub-title">Certified Trust</span>
+                            <h2 className="sec-title">
+                                JSL Gems – Our Identity, <span className="active-color">Your Trust </span>
                             </h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="100">
-                            <div class="service-content-info">
-                                <div class="service-left-content">
-                                    <div class="service-icon">
-                                        <i class="flaticon-digital-marketing"></i>
+                            <div className="service-content-info">
+                                <div className="service-left-content">
+                                    <div className="service-icon">
+                                        <i className="flaticon-digital-marketing"></i>
                                     </div>
-                                    <div class="service-text">
-                                        <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">About IGRL Gems</a>
+                                    <div className="service-text">
+                                        <h3 className="title-link">
+                                            <a className="sec-title" href="">About JSL Gems</a>
                                         </h3>
-                                        <span class="number">01</span>
+                                        <span className="number">01</span>
                                     </div>
                                 </div>
-                                <div class="service-wrapper">
+                                <div className="service-wrapper">
                                     <img src="assets/images/service/service-1.jpg" alt="Image" />
                                 </div>
                             </div>
-                            <div class="service-middle-content">
-                                <div class="service-text">
-                                    <div class="desc">
+                            <div className="service-middle-content">
+                                <div className="service-text">
+                                    <div className="desc">
                                         <p>
                                       I also want to thank you for you swift, professional, informative and friendly service, it is refreshing and comforting to know that there are people out there that you can trust and who care about the service that they give as well the quality of the product that they sell.
                                         </p>
                                     </div>
-                                    {/* <div class="service-tags">
-                                        <span class="btn text-btn">Creative</span>
-                                        <span class="btn text-btn">Accessibility</span>
+                                    {/* <div className="service-tags">
+                                        <span className="btn text-btn">Creative</span>
+                                        <span className="btn text-btn">Accessibility</span>
                                     </div> */}
                                 </div>
-                                <div class="service-arrow">
-                                    <a href="/About_us"><i class="flaticon-next"></i></a>
+                                <div className="service-arrow">
+                                    <a href="/About_us"><i className="flaticon-next"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
+                        <div className="tj-service-item-two" data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="200">
-                            <div class="service-content-info">
-                                <div class="service-left-content">
-                                    <div class="service-icon">
-                                        <i class="flaticon-enlargement"></i>
+                            <div className="service-content-info">
+                                <div className="service-left-content">
+                                    <div className="service-icon">
+                                        <i className="flaticon-enlargement"></i>
                                     </div>
-                                    <div class="service-text">
-                                        <h3 class="title-link">
-                                            <a class="sec-title" href="service-details.html">Why Choose Us</a>
+                                    <div className="service-text">
+                                        <h3 className="title-link">
+                                            <a className="sec-title" href="">Why Choose Us</a>
                                         </h3>
-                                        <span class="number">02</span>
+                                        <span className="number">02</span>
                                     </div>
                                 </div>
-                                <div class="service-wrapper">
+                                <div className="service-wrapper">
                                     <img src="assets/images/service/service-3.jpg" alt="Image" />
                                 </div>
                             </div>
-                            <div class="service-middle-content">
-                                <div class="service-text">
-                                    <div class="desc">
+                            <div className="service-middle-content">
+                                <div className="service-text">
+                                    <div className="desc">
                                         <p>
                                           We know choosing the perfect gemstone is an extremely important decision. We aim to make our customer’s search as easy as possible and to educate the consumer about the differences between a natural and certified gemstone and an artificially enhanced or synthetic gem. Simply put, quality, rarity, and value are the cornerstones of our gemstone business.
                                         </p>
                                     </div>
-                                    {/* <div class="service-tags">
-                                        <span class="btn text-btn">Creative</span>
-                                        <span class="btn text-btn">Accessibility</span>
+                                    {/* <div className="service-tags">
+                                        <span className="btn text-btn">Creative</span>
+                                        <span className="btn text-btn">Accessibility</span>
                                     </div> */}
                                 </div>
-                                <div class="service-arrow">
-                                    <a href="/About_us"><i class="flaticon-next"></i></a>
+                                <div className="service-arrow">
+                                    <a href="/About_us"><i className="flaticon-next"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -243,11 +243,11 @@ IGRL Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing
                     </div>
                 </div>
             </div>
-            <div class="service-group-shape">
-                <div class="service-shape pulse">
+            <div className="service-group-shape">
+                <div className="service-shape pulse">
                     <img src="assets/images/shape/shape-42.svg" alt="Shape" />
                 </div>
-                <div class="service-shape1 pulse">
+                <div className="service-shape1 pulse">
                     <img src="assets/images/shape/shape-42.svg" alt="Shape" />
                 </div>
             </div>

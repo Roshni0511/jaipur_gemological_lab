@@ -3219,9 +3219,10 @@ START: Theme About CSS
 START: Theme Counter CSS
 ----------------------------------------*/
 .tj-counter-section {
-  background: -webkit-gradient(linear, left top, right top, color-stop(-25.81%, #1c1c1c), color-stop(116.04%, #373636));
-  background: linear-gradient(90deg, #1c1c1c -25.81%, #373636 116.04%);
-  padding: 57px 0;
+  background-image: url("/assets/images/banner-bg/cta-bg.svg");
+  /* background: linear-gradient(90deg, #1c1c1c -25.81%, #373636 116.04%); */
+  padding: 60px 0;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -4380,7 +4381,7 @@ START: Theme Testimonial CSS
   padding-bottom: 115px;
   padding-top: 120px;
   background: var(--tj-color-light-2);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -12384,11 +12385,11 @@ START: Theme Breadcrumb CSS
 .breadcrumb-wrapper {
   padding-top: 210px;
   padding-bottom: 140px;
-  background-image: url(../images/banner-bg/banner.jpg);
+  /* background-image: url(../images/banner-bg/banner.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
+  background: linear-gradient(115deg, rgba(95, 57, 255, 0.95) 0%, rgba(95, 57, 255, 0.76) 41.52%, rgb(0 176 234 / 79%) 100%);
   position: relative;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {

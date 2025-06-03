@@ -2,11 +2,7 @@ p{
   text-align: justify;
 }
 /* counter start  */
-.tj-counter-section {
-  padding: 60px 0;
-  background: #f9f9f9;
-  position: relative;
-}
+
 
 .counter-content-area {
   display: flex !important;
@@ -115,3 +111,30 @@ p{
   color: #6d4ffd;
 }
 
+.service-content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+}
+
+.service-content.expanded p {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.read-more-btn {
+  color: #007bff;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tj-service-item {
+  margin-bottom: 30px;
+}

@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="tj-offcanvas-area d-lg-none">
         <div className="tj-offcanvas-header d-flex align-items-center justify-content-between">
           <div className="logo-area text-center">
-            <a href="">
+            <a href="   ">
               <img src="/assets/pic/jsl_logo.png" alt="Logo" />
             </a>
           </div>
@@ -56,7 +56,20 @@ const Navbar = () => {
         <nav
           className="right_menu_togle mobile-navbar-menu d-lg-none"
           id="mobile-navbar-menu"
-        >  </nav>
+        >
+          <nav class="mean-nav">
+            <nav id="mobile-menu">
+              <ul style={{ display: 'none' }}>
+                <li class="mean-last" style={{ padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}><a href="/" style={{ borderBottom: '0' }}>Home</a></li>
+                <li class="mean-last" style={{ padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}><a href="/About_us" style={{ borderBottom: '0' }}>About Us</a></li>
+                <li class="mean-last" style={{ padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}><a href="/Service" style={{ borderBottom: '0' }}>Services</a></li>
+                <li class="mean-last" style={{ padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}><a href="/VerifyCertificate" style={{ borderBottom: '0' }}>Verify Certificate</a></li>
+                <li class="mean-last" style={{ padding: '14px 0', borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}><a href="/Contact" style={{ borderBottom: '0' }}>Contact</a></li>
+
+              </ul>
+            </nav>
+          </nav>
+        </nav>
 
         <div className="mobile-contact">
           <div className="contact-menu">
@@ -122,7 +135,7 @@ const Navbar = () => {
           <div className="menu-area">
             <div className="logo-area">
               <div className="logo">
-                <a href="">
+                <a href="/">
                   <img src="/assets/pic/jsl_logo.png" alt="Logo" />
                 </a>
               </div>
@@ -150,7 +163,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li> */}
-                   <li>
+                  <li>
                     <a href="/">Home</a>
                   </li>
                   <li>
@@ -162,7 +175,7 @@ const Navbar = () => {
                   <li>
                     <a href="/VerifyCertificate">Verify Certificate</a>
                   </li>
-                   <li>
+                  <li>
                     <a href="/Contact">Contact Us</a>
                   </li>
                   {/* <li className="has-dropdown">
@@ -219,7 +232,7 @@ const Navbar = () => {
             </div>
 
             <div className="header-button d-flex d-none d-lg-block">
-              <a href="" className="btn tj-white-btn">
+              <a href="/Contact" className="btn tj-white-btn">
                 Contact Us
               </a>
             </div>

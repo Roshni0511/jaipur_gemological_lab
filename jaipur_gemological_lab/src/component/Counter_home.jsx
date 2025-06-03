@@ -35,10 +35,10 @@ const AnimatedCounter = ({ count }) => {
 };
 
 const counters = [
-  { count: 254, label: 'Project Complete', delay: 100 },
-  { count: 164, label: 'Quality Team Member', delay: 200 },
-  { count: 433, label: 'Awards Winning', delay: 300 },
-  { count: 30, label: 'Years Of Experience', delay: 400 },
+  { count: 96, label: 'ACCURACY', delay: 100 },
+  { count: 95, label: 'SUCCESS-RATE', delay: 200 },
+  { count: 92, label: 'BETTER DATA', delay: 300 },
+  { count: 98, label: 'COST-EFFECTIVE', delay: 400 },
 ];
 
 const Counter_home = () => {
@@ -48,7 +48,7 @@ const Counter_home = () => {
   });
 
   return (
-    <section className="tj-counter-section" ref={ref}>
+    <section className="tj-counter-section" ref={ref} >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -73,14 +73,7 @@ const Counter_home = () => {
         </div>
       </div>
 
-      <div className="counter-section-shape">
-        <div className="counter_shape">
-          <img src="assets/images/shape/counter-shape.svg" alt="Shape" />
-        </div>
-        <div className="counter_shape1">
-          <img src="assets/images/shape/counter-shape1.svg" alt="Shape" />
-        </div>
-      </div>
+     
     </section>
   );
 };
