@@ -219,7 +219,7 @@ export default function About_us() {
                                             </div>
                                         </div>
                                         <div className="service-wrapper">
-                                            <img src="assets/images/service/service-3.jpg" alt="Image" />
+                                            <img src="/assets/pic/1a.gemstones.png" alt="Image" />
                                         </div>
                                     </div>
                                     <div className="service-middle-content">
