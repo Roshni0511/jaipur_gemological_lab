@@ -67,8 +67,8 @@ const Footer = () => {
                             <div class="widget_nav_menu">
                                 <div class="footer-menu">
                                     <ul>
-                                        <li><a href="/">Privacy Policy</a></li>
-                                        <li><a href="/">Term & Conditions</a></li>
+                                        <li><a href="/Privacypolicy">Privacy Policy</a></li>
+                                        <li><a href="/Termsandcondition">Term & Conditions</a></li>
                                     </ul>
                                 </div>
                             </div>

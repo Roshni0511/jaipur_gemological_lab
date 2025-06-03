@@ -85,7 +85,7 @@ const Contact = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="comntact-list">
+                            {/* <div class="comntact-list">
                                 <div class="contact-icon">
                                     <img src="assets/images/icon/phone.svg" alt="Icon" />
                                 </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                                     <span class="d-block">For urgent help</span>
                                     <a href="tel:+0000123456789">+ 0000 123-456-789</a>
                                 </div>
-                            </div>
+                            </div> */}
                             <div class="comntact-list">
                                 <div class="contact-icon">
                                     <img src="assets/images/icon/mail.svg" alt="Icon" />
@@ -114,13 +114,24 @@ const Contact = () => {
                                 <label>Email Address</label>
                                 <input type="email" class="form__input" name="conEmail" />
                             </div>
-                            <div class="form-textarea">
-                                <label>How can help you?</label>
-                                <textarea id="message" name="conMessage"></textarea>
-                            </div>
-                            <div class="tj-contact-button">
-                                <button class="btn tj-primary-btn" type="submit">Submit Now</button>
-                            </div>
+                            
+                                        <div class="form-input">
+                                               <label>How Can We help?</label>
+                                            <input type="text" class="form__input"
+                                               name="con2Subject" />
+                                        </div>
+                              
+                               
+                                        <div class="form-textarea">
+                                               <label>Message</label>
+                                            <textarea id="message" name="con2Message"
+                                                ></textarea>
+                                        </div>
+                                          <div className="about-button d-flex">
+                                    <a href="" className="tj-secondary-btn btn-border"><span>
+                                            Submit</span></a>
+                                </div>
+                           
                         </form>
                     </div>
                 </div>
