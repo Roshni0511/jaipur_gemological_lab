@@ -32,7 +32,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="hero-button d-flex">
-                                    <a href="contact.html" className="btn tj-black-btn-two">Get started</a>
+                                    <a href="" className="btn tj-black-btn-two">Get started</a>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="about-button d-flex">
-                                    <a href="about-us.html" className="btn tj-white-btn">Read More</a>
+                                    <a href="" className="btn tj-white-btn">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +295,7 @@ const Home = () => {
                             <div className="service-icon">
                                 <i className="flaticon-ui-design"></i>
                             </div>
-                            <h4 className="title"><a href="portfolio-details.html">Mobile Apps</a></h4>
+                            <h4 className="title"><a href="">Mobile Apps</a></h4>
                             <p>
                                 look like readable English. Many desktop publishing packages and web page editors
                                 now use
@@ -308,7 +308,7 @@ const Home = () => {
                             <div className="service-icon">
                                 <i className="flaticon-megaphone"></i>
                             </div>
-                            <h4 className="title"><a href="portfolio-details.html">Digital Marketing</a></h4>
+                            <h4 className="title"><a href="">Digital Marketing</a></h4>
                             <p>
                                 look like readable English. Many desktop publishing packages and web page editors
                                 now use
@@ -322,7 +322,7 @@ const Home = () => {
                             <div className="service-icon">
                                 <i className="flaticon-design"></i>
                             </div>
-                            <h4 className="title"><a href="portfolio-details.html">Logo Design</a></h4>
+                            <h4 className="title"><a href="">Logo Design</a></h4>
                             <p>
                                 look like readable English. Many desktop publishing packages and web page editors
                                 now use
@@ -335,7 +335,7 @@ const Home = () => {
                             <div className="service-icon">
                                 <i className="flaticon-graphic-design-1"></i>
                             </div>
-                            <h4 className="title"><a href="portfolio-details.html">Web Design</a></h4>
+                            <h4 className="title"><a href="">Web Design</a></h4>
                             <p>
                                 look like readable English. Many desktop publishing packages and web page editors
                                 now use
@@ -415,11 +415,11 @@ const Home = () => {
                                     <div className="portfolio-header">
                                         <span className="sub-title">Web Developer</span>
                                         <h3 className="title-link">
-                                            <a href="portfolio-details.html">Business Solution</a>
+                                            <a href="">Business Solution</a>
                                         </h3>
                                     </div>
                                     <div className="portfolio-arrow">
-                                        <a href="portfolio-details.html"><i className="flaticon-next"></i></a>
+                                        <a href=""><i className="flaticon-next"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -435,11 +435,11 @@ const Home = () => {
                                     <div className="portfolio-header">
                                         <span className="sub-title">Web Developer</span>
                                         <h3 className="title-link">
-                                            <a href="portfolio-details.html">Business Solution</a>
+                                            <a href="">Business Solution</a>
                                         </h3>
                                     </div>
                                     <div className="portfolio-arrow">
-                                        <a href="portfolio-details.html"><i className="flaticon-next"></i></a>
+                                        <a href=""><i className="flaticon-next"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -451,11 +451,11 @@ const Home = () => {
                                     <div className="portfolio-header">
                                         <span className="sub-title">Web Developer</span>
                                         <h3 className="title-link">
-                                            <a href="portfolio-details.html">Business Solution</a>
+                                            <a href="">Business Solution</a>
                                         </h3>
                                     </div>
                                     <div className="portfolio-arrow">
-                                        <a href="portfolio-details.html"><i className="flaticon-next"></i></a>
+                                        <a href=""><i className="flaticon-next"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -471,11 +471,11 @@ const Home = () => {
                                     <div className="portfolio-header">
                                         <span className="sub-title">Web Developer</span>
                                         <h3 className="title-link">
-                                            <a href="portfolio-details.html">Business Solution</a>
+                                            <a href="">Business Solution</a>
                                         </h3>
                                     </div>
                                     <div className="portfolio-arrow">
-                                        <a href="portfolio-details.html"><i className="flaticon-next"></i></a>
+                                        <a href=""><i className="flaticon-next"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -834,19 +834,19 @@ const Home = () => {
                         <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="100">
                             <div className="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-15.jpg" alt="Image" /></a>
+                                <a href=""><img src="assets/images/blog/blog-15.jpg" alt="Image" /></a>
                             </div>
                             <div className="blog-content-area">
                                 <div className="blog-meta-three ">
-                                    <span><a href="blog-details.html">Business</a></span>
+                                    <span><a href="">Business</a></span>
                                     <span>May 22, 2023</span>
                                 </div>
                                 <h4 className="title-link">
-                                    <a href="blog-details.html">Simple Proctives that will help you get better every
+                                    <a href="">Simple Proctives that will help you get better every
                                         day</a>
                                 </h4>
                                 <div className="tj-blog-button">
-                                    <a href="blog-details.html" className="btn tj-white-btn">Read More</a>
+                                    <a href="" className="btn tj-white-btn">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -855,18 +855,18 @@ const Home = () => {
                         <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="200">
                             <div className="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-16.jpg" alt="Image" /></a>
+                                <a href=""><img src="assets/images/blog/blog-16.jpg" alt="Image" /></a>
                             </div>
                             <div className="blog-content-area">
                                 <div className="blog-meta-three">
-                                    <span><a href="blog-details.html">Artificial Inteligence</a></span>
+                                    <span><a href="">Artificial Inteligence</a></span>
                                     <span>Dec 05, 2023</span>
                                 </div>
                                 <h4 className="title-link">
-                                    <a href="blog-details.html">How data backup & recovery can save your business</a>
+                                    <a href="">How data backup & recovery can save your business</a>
                                 </h4>
                                 <div className="tj-blog-button">
-                                    <a href="blog-details.html" className="btn tj-white-btn">Read More</a>
+                                    <a href="" className="btn tj-white-btn">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -875,19 +875,19 @@ const Home = () => {
                         <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
                             data-sal-delay="200">
                             <div className="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-17.jpg" alt="Image" /></a>
+                                <a href=""><img src="assets/images/blog/blog-17.jpg" alt="Image" /></a>
                             </div>
                             <div className="blog-content-area">
                                 <div className="blog-meta-three">
-                                    <span><a href="blog-details.html">Business Agency</a></span>
+                                    <span><a href="">Business Agency</a></span>
                                     <span>Jan 14, 2023</span>
                                 </div>
                                 <h4 className="title-link">
-                                    <a href="blog-details.html">Search enginess optimizaties for streamline
+                                    <a href="">Search enginess optimizaties for streamline
                                         solutions</a>
                                 </h4>
                                 <div className="tj-blog-button">
-                                    <a href="blog-details.html" className="btn tj-white-btn">Read More</a>
+                                    <a href="" className="btn tj-white-btn">Read More</a>
                                 </div>
                             </div>
                         </div>
