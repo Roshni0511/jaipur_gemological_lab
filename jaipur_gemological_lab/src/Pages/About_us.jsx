@@ -274,7 +274,7 @@ export default function About_us() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="comntact-list">
+                                        {/* <div className="comntact-list">
                                             <div className="contact-icon">
                                                 <img src="assets/images/icon/phone.svg" alt="Icon" />
                                             </div>
@@ -291,7 +291,7 @@ export default function About_us() {
                                                 <span className="d-block">Mail us 24/7</span>
                                                 <a href="mailto:hello@gmail.com">hello@gmail.com</a>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <form id="contact-form" className="contact-form-box  " data-sal="slide-left"
                                         data-sal-duration="1000" data-sal-delay="300">

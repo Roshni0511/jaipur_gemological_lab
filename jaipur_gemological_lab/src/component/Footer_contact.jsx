@@ -20,15 +20,15 @@ export default function Footer_contact() {
                                         chunks as necessary, making this the first true generator on the Internet.
                                     </p>
                                 </div>
-                                <div className="comntact-list">
+                                {/* <div className="comntact-list">
                                     <div className="contact-icon">
                                         <img src="assets/images/icon/phone4.svg" alt="Icon" />
                                     </div>
                                     <div className="contact-header">
-                                        <p className="d-block">Heple Line:</p>
-                                        <a href="tel:+000123456789">+ 000 123 456 789</a>
+                                        <p className="d-block">Phone :</p>
+                                        <a href="tel:+9033600020">+91-9033600020</a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
