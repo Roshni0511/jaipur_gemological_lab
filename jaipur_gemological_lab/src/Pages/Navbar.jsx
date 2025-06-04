@@ -78,19 +78,14 @@ const Navbar = () => {
                 <span>
                   <i className="fa-sharp fa-regular fa-envelope"></i>
                 </span>
-                <a href="mailto:Info@gmail.com">Info@gmail.com</a>
+                <a href="mailto:info@igrlgemslab.com">info@igrlgemslab.com</a>
               </li>
-              <li>
-                <span>
-                  <i className="fa-sharp fa-solid fa-location-dot"></i>
-                </span>
-                <a href="#">225 Marion Street, Columbia</a>
-              </li>
+             
               <li>
                 <span>
                   <i className="fa-solid fa-phone-volume"></i>
                 </span>
-                <a href="tel:+00123456789">+ 00 123 456 789</a>
+                <a href="tel:+9033600020">+91-9033600020</a>
               </li>
             </ul>
           </div>
@@ -99,22 +94,17 @@ const Navbar = () => {
         <div className="mobile-share">
           <ul className="dot-style">
             <li>
-              <a href="#">
+              <a href="">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa-brands fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
+              <a href="">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
             </li>
