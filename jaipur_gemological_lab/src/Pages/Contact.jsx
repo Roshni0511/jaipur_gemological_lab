@@ -92,7 +92,7 @@ const Contact = () => {
                                     <a href="tel:+0000123456789">+ 0000 123-456-789</a>
                                 </div>
                             </div> */}
-                            {/* <div className="comntact-list">
+                            <div className="comntact-list">
                                 <div className="contact-icon">
                                     <img src="assets/images/icon/mail.svg" alt="Icon" />
                                 </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                                     <span className="d-block">Mail us 24/7</span>
                                     <a href="mailto:hello@gmail.com">hello@gmail.com</a>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                         <form id="contact-form" className="contact-form-box " data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="300">
