@@ -500,7 +500,7 @@ const Home = () => {
                                 <div className="portfolio-single-item finance"  >
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="assets/images/portfolio/portfolio-15.jpg" alt="Image" />
+                                            <img src="https://indiannaturalgemsandjewellery.com/wp-content/uploads/2021/09/Gems-vs-Rudraksha.jpg" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
