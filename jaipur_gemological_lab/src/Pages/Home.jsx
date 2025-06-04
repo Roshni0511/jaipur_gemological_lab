@@ -70,11 +70,11 @@ const Home = () => {
                                     </div>
                                     <div className="image-group-1 " data-sal="slide-right" data-sal-duration="1200"
                                         data-sal-delay="600">
-                                        <img className="about-lg-image" src="assets/images/about/about-7.jpg" alt="About" />
+                                        <img className="about-lg-image" src="/assets/pic/diamond.webp" alt="About" />
                                     </div>
                                     <div className="image-group-2 " data-sal="slide-left" data-sal-duration="1200"
                                         data-sal-delay="600">
-                                        <img className="about-image" src="assets/images/about/about-8.jpg" alt="About" />
+                                        <img className="about-image" src="/assets/pic/chaingems (1).jpg" alt="About" />
                                     </div>
                                     <div className="about-group-shape">
                                         <div className="shape-1 pulse"></div>
@@ -159,8 +159,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -170,8 +170,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +181,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -192,8 +192,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -203,8 +203,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -216,8 +216,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -227,8 +227,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -238,8 +238,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -249,8 +249,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -260,8 +260,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Marketing Agency</h4>
-                                        <h4 className="title">Creative Agency</h4>
+                                        <h4 className="title">Gems Collection</h4>
+                                        <h4 className="title">Rudraksha Beads</h4>
                                     </div>
                                 </div>
                             </div>
@@ -399,7 +399,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className="service-wrapper">
-                                            <img src="assets/images/service/service-1.jpg" alt="Image" />
+                                           <img src="/assets/pic/nat021.jpg" alt="Image" />
                                         </div>
                                     </div>
                                     <div className="service-middle-content">
@@ -434,7 +434,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className="service-wrapper">
-                                            <img src="assets/images/service/service-3.jpg" alt="Image" />
+                                      <img src="/assets/pic/1a.gemstones.png" alt="Image" />
                                         </div>
                                     </div>
                                     <div className="service-middle-content">
@@ -500,7 +500,7 @@ const Home = () => {
                                 <div className="portfolio-single-item finance"  >
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="https://indiannaturalgemsandjewellery.com/wp-content/uploads/2021/09/Gems-vs-Rudraksha.jpg" alt="Image" />
+                                            <img src="/assets/pic/gems1.png" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -520,7 +520,7 @@ const Home = () => {
                                 <div className="portfolio-single-item consulting finance" style={{ position: 'absolute', left: '33.3298%', top: '0px' }}>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="https://www.rudraksha-ratna.com/assets/shared/Consultations/rudraksha-gems-recommendation.jpg" alt="Image" />
+                                            <img src="/assets/pic/gems2.jpg" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -536,7 +536,7 @@ const Home = () => {
                                     </div>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="https://gemsmantra.com/cdn/shop/files/7_Mukhi_Rudraksha_SKU1041R_3afef5b5-5019-442a-b038-fd63f8aa7162.jpg?v=1747740171&width=2048" alt="Image" />
+                                            <img src="/assets/pic/gems3.jpg" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -556,7 +556,7 @@ const Home = () => {
                                 <div className="portfolio-single-item capital development" style={{ position: 'absolute', left: '66.6595%', top: '0px' }}>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
-                                            <img src="https://brahmagems-media.s3.ap-south-1.amazonaws.com/77920/1738304645.png" alt="Image" />
+                                            <img src="/assets/pic/gems4.png" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
@@ -585,6 +585,44 @@ const Home = () => {
                 </section>
                 {/* <!-- end: Portfolio Area --> */}
 
+
+            
+
+                {/* <!-- start: Video Area --> */}
+                <section className="tj-video-section">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="tj-video-area text-center ">
+                                    <div className="tj-video-popup">
+                                        <div className="circle pulse video-icon">
+                                            <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
+                                                href="https://www.youtube.com/watch?v=ADmQTw4qqTY">
+                                                <img src="/public/assets/pic/numerology-concept-with-pebbles-top-view.jpg" alt="Play" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="video-sec-shape">
+                        <div className="shape-1 shake-y">
+                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
+                        </div>
+                        <div className="shape-2 shake-y">
+                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
+                        </div>
+                        <div className="shape-3 pulse">
+                            <img src="assets/images/shape/shape-61.svg" alt="Shape" />
+                        </div>
+                    </div>
+                </section>
+                {/* <!-- end: Video Area --> */}
+
+
+
+                
                 {/* <!-- start: Testimonial Area --> */}
                 <section className="tj-testimonial-section-three">
                     <div className="container">
@@ -604,7 +642,7 @@ const Home = () => {
                                         <div className="swiper-wrapper thumb_slider">
                                             <div className="swiper-slide thumb_slide">
                                                 <div className="thumb-1">
-                                                    <img src="assets/images/testimonial/test-7.png" alt="Image" />
+                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
                                                 </div>
                                                 <div className="thumb-arrow">
                                                     <i className="fa-solid fa-quote-right"></i>
@@ -612,7 +650,7 @@ const Home = () => {
                                             </div>
                                             <div className="swiper-slide thumb_slide">
                                                 <div className="thumb-1">
-                                                    <img src="assets/images/testimonial/test-8.png" alt="Image" />
+                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
                                                 </div>
                                                 <div className="thumb-arrow">
                                                     <i className="fa-solid fa-quote-right"></i>
@@ -620,7 +658,7 @@ const Home = () => {
                                             </div>
                                             <div className="swiper-slide thumb_slide">
                                                 <div className="thumb-1">
-                                                    <img src="assets/images/testimonial/test-9.png" alt="Image" />
+                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
                                                 </div>
                                                 <div className="thumb-arrow">
                                                     <i className="fa-solid fa-quote-right"></i>
@@ -736,266 +774,6 @@ const Home = () => {
                 </section>
                 {/* <!-- end: Testimonial Area --> */}
 
-                {/* <!-- start: Team Area --> */}
-                <section className="tj-team-section-two">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="tj-sec-heading text-
-                        center " data-sal="slide-up" data-sal-duration="1000"
-                                    data-sal-delay="600">
-                                    <span className="secondary-color">How We Work</span>
-                                    <h2 className="sec-title">Meet Our Team</h2>
-                                    <div className="desc">
-                                        <p>
-                                            It has survived not only five centuries, but also the leap into electronic
-                                            typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                            with the release
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="tj-team-item-two " data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                                    <div className="team-image">
-                                        <img src="assets/images/team/team-10.jpg" alt="Team" />
-                                    </div>
-                                    <div className="tj-team-content">
-                                        <div className="team-share">
-                                            <ul className="dot-style">
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-header">
-                                            <h5 className="title-link"><a href="#">Alextina Deitarson</a></h5>
-                                            <span className="sub-title">UI/UX Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="tj-team-item-two " data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                    <div className="team-image">
-                                        <img src="assets/images/team/team-11.jpg" alt="Team" />
-                                    </div>
-                                    <div className="tj-team-content">
-                                        <div className="team-share">
-                                            <ul className="dot-style">
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-header">
-                                            <h5 className="title-link"><a href="#">Alextina Deitarson</a></h5>
-                                            <span className="sub-title">UI/UX Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="tj-team-item-two " data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
-                                    <div className="team-image">
-                                        <img src="assets/images/team/team-12.jpg" alt="Team" />
-                                    </div>
-                                    <div className="tj-team-content">
-                                        <div className="team-share">
-                                            <ul className="dot-style">
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-header">
-                                            <h5 className="title-link"><a href="#">Alextina Deitarson</a></h5>
-                                            <span className="sub-title">UI/UX Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="tj-team-item-two " data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                                    <div className="team-image">
-                                        <img src="assets/images/team/team-13.jpg" alt="Team" />
-                                    </div>
-                                    <div className="tj-team-content">
-                                        <div className="team-share">
-                                            <ul className="dot-style">
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-header">
-                                            <h5 className="title-link"><a href="#">Alextina Deitarson</a></h5>
-                                            <span className="sub-title">UI/UX Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="team-shape pulse">
-                        <img src="assets/images/shape/shape-16.svg" alt="Shape" />
-                    </div>
-                </section>
-                {/* <!-- end: Team Area --> */}
-
-                {/* <!-- start: Video Area --> */}
-                <section className="tj-video-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="tj-video-area text-center ">
-                                    <div className="tj-video-popup">
-                                        <div className="circle pulse video-icon">
-                                            <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
-                                                href="https://www.youtube.com/watch?v=ADmQTw4qqTY">
-                                                <img src="assets/images/icon/play.svg" alt="Play" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="video-sec-shape">
-                        <div className="shape-1 shake-y">
-                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-                        </div>
-                        <div className="shape-2 shake-y">
-                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-                        </div>
-                        <div className="shape-3 pulse">
-                            <img src="assets/images/shape/shape-61.svg" alt="Shape" />
-                        </div>
-                    </div>
-                </section>
-                {/* <!-- end: Video Area --> */}
-
-                {/* <!-- start: Blog Area --> */}
-                <section className="tj-blog-section-three">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="tj-sec-heading text-center " data-sal="slide-up" data-sal-duration="1000"
-                                    data-sal-delay="600">
-                                    <span className="secondary-color">Latest Blog</span>
-                                    <h2 className="sec-title">The best studio in the city</h2>
-                                    <div className="desc">
-                                        <p>
-                                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
-                                            as necessary, making this the first true generator on the Internet. It uses a
-                                            dictionary of over 200 Latin words,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
-                                    data-sal-delay="100">
-                                    <div className="blog-image">
-                                        <a href=""><img src="assets/images/blog/blog-15.jpg" alt="Image" /></a>
-                                    </div>
-                                    <div className="blog-content-area">
-                                        <div className="blog-meta-three ">
-                                            <span><a href="">Business</a></span>
-                                            <span>May 22, 2023</span>
-                                        </div>
-                                        <h4 className="title-link">
-                                            <a href="">Simple Proctives that will help you get better every
-                                                day</a>
-                                        </h4>
-                                        <div className="tj-blog-button">
-                                            <a href="" className="btn tj-white-btn">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
-                                    data-sal-delay="200">
-                                    <div className="blog-image">
-                                        <a href=""><img src="assets/images/blog/blog-16.jpg" alt="Image" /></a>
-                                    </div>
-                                    <div className="blog-content-area">
-                                        <div className="blog-meta-three">
-                                            <span><a href="">Artificial Inteligence</a></span>
-                                            <span>Dec 05, 2023</span>
-                                        </div>
-                                        <h4 className="title-link">
-                                            <a href="">How data backup & recovery can save your business</a>
-                                        </h4>
-                                        <div className="tj-blog-button">
-                                            <a href="" className="btn tj-white-btn">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="tj-blog-item-three " data-sal="slide-up" data-sal-duration="1000"
-                                    data-sal-delay="200">
-                                    <div className="blog-image">
-                                        <a href=""><img src="assets/images/blog/blog-17.jpg" alt="Image" /></a>
-                                    </div>
-                                    <div className="blog-content-area">
-                                        <div className="blog-meta-three">
-                                            <span><a href="">Business Agency</a></span>
-                                            <span>Jan 14, 2023</span>
-                                        </div>
-                                        <h4 className="title-link">
-                                            <a href="">Search enginess optimizaties for streamline
-                                                solutions</a>
-                                        </h4>
-                                        <div className="tj-blog-button">
-                                            <a href="" className="btn tj-white-btn">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="blog-sec-shape">
-                        <div className="shape-one pulse">
-                            <img src="assets/images/shape/shape-16.svg" alt="Images" />
-                        </div>
-                        <div className="shape-two shake-y">
-                            <img src="assets/images/shape/shape-52.svg" alt="Images" />
-                        </div>
-                        <div className="shape-three pulse"></div>
-                    </div>
-                </section>
-                {/* <!-- end: Blog Area --> */}
             </main>
             <Footer />
         </>
