@@ -265,12 +265,11 @@ export default function About_us() {
                                         data-sal-delay="300">
                                         <div className="tj-sec-heading">
                                             <span className="sub-title">Get In touch</span>
-                                            <h2 className="sec-title">Have any Project Plan In your Mind?</h2>
+                                            <h2 className="sec-title">How Can We Help?</h2>
                                             <div className="desc">
                                                 <p>
-                                                    All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                                                    chunks as necessary, making this the first true generator on the
-                                                    Internet. It uses a dictionary of over 200 Latin words,
+                                                  We are here to provide you with expert guidance and support tailored to your needs. Whether you have questions, need assistance with our services, or want personalized advice, our dedicated team is ready to listen and offer solutions that make your experience smooth and satisfying. Reach out anytime, and let us help you achieve your goals with ease and confidence.
+
                                                 </p>
                                             </div>
                                         </div>
