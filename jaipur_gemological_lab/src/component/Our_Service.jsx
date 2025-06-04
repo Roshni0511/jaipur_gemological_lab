@@ -60,9 +60,7 @@ export default function Our_Service() {
                                 <h2 className="sec-title">Service We Provide</h2>
                                 <div className="desc">
                                     <p>
-                                        It has survived not only five centuries, but also the leap into electronic
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release
+                                       Discover our wide range of certified gemstones and sacred Rudraksha beads, each chosen for its spiritual significance and astrological benefits. Whether you're seeking peace, prosperity, or protection, our expert guidance helps you find the right stone or bead aligned with your energy and purpose.
                                     </p>
                                 </div>
                             </div>

@@ -397,8 +397,7 @@ const Home = () => {
                                     data-sal-delay="600">
                                     <div className="desc">
                                         <p>
-                                            Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            aliqua. eni, ad minim.
+                                            Watch our video presentation to get a quick and powerful glimpse into our story, services, and vision.
                                         </p>
                                     </div>
                                     <div className="video-area">

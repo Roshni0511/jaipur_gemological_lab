@@ -84,9 +84,10 @@ export default function About_us() {
                                                   a 37,37 0 1,1 74,0
                                                   a 37,37 0 1,1 -74,0" />
                                                 </defs>
-                                                <text font-size="15">
+                                                <text font-size="14">
                                                     <textPath href="#circle" className="shape-1" >
-                                                        Creative Minds_, Creative Minds_
+                                                
+                                                         Gems Experts_ Rudraksh Experts_
                                                     </textPath>
                                                 </text>
                                             </svg>
