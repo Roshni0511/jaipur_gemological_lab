@@ -83,7 +83,7 @@ const Home = () => {
                                     <div className="tj-sec-heading">
                                         <span className="white-sub-title">Jaipur Solitare Lab</span>
                                         <h1 className="title">
-                                            Trusted <span className="black-color">Gem & Rudraksha Testing <br /> Lab</span> in India
+                                            Trusted <span className="WHITE-color">Gem & Rudraksha Testing <br /> Lab</span> in India
                                         </h1>
                                         <div className="desc">
                                             <p>
