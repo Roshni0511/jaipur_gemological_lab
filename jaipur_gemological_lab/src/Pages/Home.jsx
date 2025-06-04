@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect , useState  } from "react";
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Counter_home from '../component/Counter_home'
@@ -9,35 +9,63 @@ import "swiper/css/navigation";
 
 
 const Home = () => {
-useEffect(() => {
-  const thumbSlider = new Swiper(".thumb-slider", {
-    slidesPerView: 3, // <-- Change here
-    spaceBetween: 20,
-    watchSlidesProgress: true,
-  });
+ const [activeIndex, setActiveIndex] = useState(0);
 
-  const contentSlider = new Swiper(".thumb-slider2", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    thumbs: {
-      swiper: thumbSlider,
-    },
-    on: {
-      slideChange: function () {
-        thumbSlider.slideToLoop(this.realIndex);
+  const testimonials = [
+  {
+    img: "avatar-5.jpg",
+    name: "Pritesh Mehta",
+    title: "CEO, Business Co",
+    review: `The quality of the gemstones I received was absolutely top-notch. Each stone had a natural shine and was energized perfectly. Truly authentic and spiritually uplifting.`,
+  },
+  {
+    img: "avatar-5.jpg",
+    name: "Sara Patel",
+    title: "Marketing Head, Glow Inc",
+    review: `I purchased a 5 Mukhi Rudraksha and could instantly feel a positive energy around me. The packaging, certification, and overall service were excellent. Highly recommended!`,
+  },
+  {
+    img: "avatar-5.jpg",
+    name: "Rohit Sharma",
+    title: "Founder, InnovateX",
+    review: `Their gemstone recommendations based on my birth chart have brought real changes in my life. I feel more focused and peaceful. A trustworthy source for spiritual products.`,
+  },
+];
+
+
+  useEffect(() => {
+    const thumbSlider = new Swiper(".thumb-slider", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      watchSlidesProgress: true,
+    });
+
+    const contentSlider = new Swiper(".thumb-slider2", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
-    },
-  });
+      thumbs: {
+        swiper: thumbSlider,
+      },
+      on: {
+        slideChange: function () {
+          const realIndex = this.realIndex;
+          setActiveIndex(realIndex); // 👈 Update state
+          thumbSlider.slideToLoop(realIndex);
+        },
+      },
+    });
 
-  thumbSlider.on("slideChange", function () {
-    contentSlider.slideToLoop(this.realIndex);
-  });
-}, []);
+    thumbSlider.on("slideChange", function () {
+      const realIndex = this.realIndex;
+      setActiveIndex(realIndex); // 👈 Update state
+      contentSlider.slideToLoop(realIndex);
+    });
+  }, []);
     return (
         <>
             <Navbar />
@@ -508,20 +536,18 @@ useEffect(() => {
                             <div className="col-lg-6">
                                 <div className="tj-sec-heading " data-sal="slide-right" data-sal-duration="1000"
                                     data-sal-delay="600">
-                                    <span className="secondary-color">Projects We Have</span>
-                                    <h2 className="sec-title">Our Case Studies</h2>
+                                    <span className="secondary-color">Spiritual Creations</span>
+                                    <h2 className="sec-title">Our Sacred Collections</h2>
                                     <p>
-                                        It has survived not only five centuries, but also the leap into electronic
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                        the release
+                                        Discover timeless collections of natural gemstones and authentic Rudraksha beads. Each item is carefully selected for spiritual benefits and aesthetic elegance to enhance your well-being.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="filter-menu " data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
                                     <button className="filter active" data-filter="*">All</button>
-                                    <button className="filter" data-filter=".development">Web Design</button>
-                                    <button className="filter" data-filter=".consulting">Motion Design</button>
+                                    <button className="filter" data-filter=".development">Gemstones</button>
+                                    <button className="filter" data-filter=".consulting">Rudraksha</button>
                                 </div>
                             </div>
                         </div>
@@ -529,21 +555,21 @@ useEffect(() => {
                     <div className="container">
                         <div className="row" id="portfolio-grid" >
                             <div className="col-lg-4 col-md-6">
-                                <div className="portfolio-single-item finance"  >
+                                <div className="portfolio-single-item finance development"  >
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
                                             <img src="/assets/pic/gems1.png" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
-                                                <span className="sub-title">Web Developer</span>
+                                                <span className="sub-title">Natural Crystals</span>
                                                 <h3 className="title-link">
-                                                    <a href="">Business Solution</a>
+                                                    <a href="">Healing Gemstone Set</a>
                                                 </h3>
                                             </div>
-                                            <div className="portfolio-arrow">
+                                            {/* <div className="portfolio-arrow">
                                                 <a href=""><i className="flaticon-next"></i></a>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -556,14 +582,14 @@ useEffect(() => {
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
-                                                <span className="sub-title">Web Developer</span>
+                                                <span className="sub-title">Divine Jewelry</span>
                                                 <h3 className="title-link">
-                                                    <a href="">Business Solution</a>
+                                                    <a href="">Navratna Rudraksha Bracelet</a>
                                                 </h3>
                                             </div>
-                                            <div className="portfolio-arrow">
+                                            {/* <div className="portfolio-arrow">
                                                 <a href=""><i className="flaticon-next"></i></a>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="portfolio-inner">
@@ -572,34 +598,34 @@ useEffect(() => {
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
-                                                <span className="sub-title">Web Developer</span>
+                                                <span className="sub-title">Spiritual Power</span>
                                                 <h3 className="title-link">
-                                                    <a href="">Business Solution</a>
+                                                    <a href="">5 Mukhi Rudraksha Bead</a>
                                                 </h3>
                                             </div>
-                                            <div className="portfolio-arrow">
+                                            {/* <div className="portfolio-arrow">
                                                 <a href=""><i className="flaticon-next"></i></a>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="portfolio-single-item capital development" style={{ position: 'absolute', left: '66.6595%', top: '0px' }}>
+                                <div className="portfolio-single-item capital consulting" style={{ position: 'absolute', left: '66.6595%', top: '0px' }}>
                                     <div className="portfolio-inner">
                                         <div className="portfolio-image">
                                             <img src="/assets/pic/gems4.png" alt="Image" />
                                         </div>
                                         <div className="portfolio-content">
                                             <div className="portfolio-header">
-                                                <span className="sub-title">Web Developer</span>
+                                                <span className="sub-title">Luxury Stones</span>
                                                 <h3 className="title-link">
-                                                    <a href="">Business Solution</a>
+                                                    <a href="">Premium Gems for Astrology</a>
                                                 </h3>
                                             </div>
-                                            <div className="portfolio-arrow">
+                                            {/* <div className="portfolio-arrow">
                                                 <a href=""><i className="flaticon-next"></i></a>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -615,131 +641,142 @@ useEffect(() => {
                         </div>
                     </div>
                 </section>
+
+                
                 {/* <!-- end: Portfolio Area --> */}
 
 
             
 
                 {/* <!-- start: Video Area --> */}
-                <section className="tj-video-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="tj-video-area text-center ">
-                                    <div className="tj-video-popup">
-                                        <div className="circle pulse video-icon">
-                                            <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
-                                                href="https://youtu.be/-aTFL_lNrww?si=G4PP0d-QjEZtVKT2">
-                                                <img src="" alt="Play" />
-                                            </a>
-                                        </div>
-                                    </div>
+               <section className="tj-video-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="tj-video-area text-center">
+                            <div className="tj-video-popup">
+                                <div className="circle pulse video-icon">
+                                    <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=ADmQTw4qqTY">
+                                        <img src="assets/images/icon/play.svg" alt="Play" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="video-sec-shape">
-                        <div className="shape-1 shake-y">
-                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-                        </div>
-                        <div className="shape-2 shake-y">
-                            <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-                        </div>
-                        <div className="shape-3 pulse">
-                            <img src="assets/images/shape/shape-61.svg" alt="Shape" />
-                        </div>
-                    </div>
-                </section>
+                </div>
+            </div>
+            <div className="video-sec-shape">
+                <div className="shape-1 shake-y">
+                    <img src="assets/images/shape/shape-61.svg" alt="Shape" />
+                </div>
+                <div className="shape-2 shake-y">
+                    <img src="assets/images/shape/shape-61.svg" alt="Shape" />
+                </div>
+                {/* <div className="shape-3 pulse">
+                    <img src="assets/images/shape/shape-61.svg" alt="Shape" />
+                </div> */}
+
+                 
+            </div>
+        </section>
                 {/* <!-- end: Video Area --> */}
 
 
 
                 
                 {/* <!-- start: Testimonial Area --> */}
-                <section className="tj-testimonial-section-three">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
-              <span className="secondary-color">Optional Subtitle</span>
-              <h2 className="sec-title">Praise from Clients</h2>
+               <section className="tj-testimonial-section-three">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div
+                className="tj-sec-heading"
+                data-sal="slide-right"
+                data-sal-duration="1000"
+                data-sal-delay="600"
+              >
+                <span className="secondary-color">Optional Subtitle</span>
+                <h2 className="sec-title">Praise from Clients</h2>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="row align-items-center">
-          <div className="col-lg-5" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
-            <div className="thumb-area">
-              <div className="swiper thumb-slider">
-                <div className="swiper-wrapper thumb_slider">
-                  {["avatar-5.jpg", "avatar-5.jpg", "avatar-5.jpg"].map((img, index) => (
-                    <div className="swiper-slide swiper-slide thumb_slide" key={index}>
-                      <div className="thumb-1">
-                        <img src={`assets/pic/${img}`} alt={`Testimonial ${index + 1}`} />
+          <div className="row align-items-center">
+            <div
+              className="col-lg-5"
+              data-sal="slide-right"
+              data-sal-duration="1000"
+              data-sal-delay="600"
+            >
+              <div className="thumb-area">
+                <div className="swiper thumb-slider">
+                  <div className="swiper-wrapper thumb_slider">
+                    {testimonials.map((item, index) => (
+                      <div className="swiper-slide thumb_slide" key={index}>
+                        <div className="thumb-1">
+                          <img src={`assets/pic/${item.img}`} alt={item.name} />
+                        </div>
+                        <div className="thumb-arrow">
+                          <i className="fa-solid fa-quote-right"></i>
+                        </div>
                       </div>
-                      <div className="thumb-arrow">
-                        <i className="fa-solid fa-quote-right"></i>
+                    ))}
+                  </div>
+                </div>
+                <div className="testimonial-info">
+                  <h4 className="title">{testimonials[activeIndex].name}</h4>
+                  <span className="sub-tilte">{testimonials[activeIndex].title}</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-7"
+              data-sal="slide-left"
+              data-sal-duration="1000"
+              data-sal-delay="600"
+            >
+              <div className="swiper thumb-slider2">
+                <div className="swiper-wrapper">
+                  {testimonials.map((item, index) => (
+                    <div className="swiper-slide" key={index}>
+                      <div className="testimonial-slider-item">
+                        <div className="testimonial-rating">
+                          <ul className="dot-style">
+                            <li><i className="fa-solid fa-star"></i></li>
+                            <li><i className="fa-solid fa-star"></i></li>
+                            <li><i className="fa-solid fa-star"></i></li>
+                            <li><i className="fa-solid fa-star"></i></li>
+                            <li><i className="fa-solid fa-star-half-stroke"></i></li>
+                          </ul>
+                        </div>
+                        <p>{item.review}</p>
                       </div>
                     </div>
                   ))}
                 </div>
-              </div>
-              <div className="testimonial-info">
-                <h4 className="title">Piter Bowman</h4>
-                <span className="sub-tilte">CEO, Business Co</span>
-              </div>
-            </div>
-          </div>
 
-          <div className="col-lg-7" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
-            <div className="swiper thumb-slider2">
-              <div className="swiper-wrapper">
-                {[...Array(3)].map((_, index) => (
-                  <div className="swiper-slide" key={index}>
-                    <div className="testimonial-slider-item">
-                      <div className="testimonial-rating">
-                        <ul className="dot-style">
-                          <li><i className="fa-solid fa-star"></i></li>
-                          <li><i className="fa-solid fa-star"></i></li>
-                          <li><i className="fa-solid fa-star"></i></li>
-                          <li><i className="fa-solid fa-star"></i></li>
-                          <li><i className="fa-solid fa-star-half-stroke"></i></li>
-                        </ul>
-                      </div>
-                      <p>
-                        Many desktop publishing packages and web page editors now use Lorem
-                        Ipsum as their default model text. Various versions have evolved over
-                        the years, sometimes by accident, injected humour and the like.
-                      </p>
-                      <p>
-                        Various versions have evolved over the years, sometimes by accident,
-                        injected humour and the like.
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <div className="testimonial-navigation">
-                <div className="swiper-button-next"></div>
-                <div className="swiper-button-prev"></div>
+                <div className="testimonial-navigation">
+                  <div className="swiper-button-next"></div>
+                  <div className="swiper-button-prev"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Decorative Shapes */}
-      <div className="testimonial-sec-shape">
-        <div className="shape-one shake-y">
-          <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
+        {/* Decorative Shapes */}
+        <div className="testimonial-sec-shape">
+          <div className="shape-one shake-y">
+            <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
+          </div>
+          <div className="shape-two pulse"></div>
+          <div className="shape-three shake-y">
+            <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
+          </div>
         </div>
-        <div className="shape-two pulse"></div>
-        <div className="shape-three shake-y">
-          <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-        </div>
-      </div>
-    </section>
+      </section>
                 {/* <!-- end: Testimonial Area --> */}
 
             </main>
