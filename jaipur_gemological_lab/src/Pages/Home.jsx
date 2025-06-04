@@ -73,7 +73,7 @@ const Home = () => {
                 {/* <!-- start: Hero Area --> */}
                 <section className="tj-hero-section-three">
                     <div className="hero-lg-image">
-                        <img src="/assets/pic/numerology-concept-with-hands-holding-pebbles.jpg" alt="Image" />
+                        <img src="/assets/pic/banner.jpg" alt="Image" />
                     </div>
                     <div className="container">
                         <div className="row align-items-center">
@@ -219,8 +219,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -230,8 +230,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -241,8 +241,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -252,8 +252,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -263,8 +263,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -276,8 +276,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -287,8 +287,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -298,8 +298,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -309,8 +309,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -320,8 +320,8 @@ const Home = () => {
                                         <img className="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
                                     </div>
                                     <div className="roll-text">
-                                        <h4 className="title">Gems Collection</h4>
-                                        <h4 className="title">Rudraksha Beads</h4>
+                                        <h4 className="title">Tested Gemstones</h4>
+                                        <h4 className="title">Rudraksha Testing</h4>
                                     </div>
                                 </div>
                             </div>
