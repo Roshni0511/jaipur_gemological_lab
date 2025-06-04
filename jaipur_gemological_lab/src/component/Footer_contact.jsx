@@ -12,12 +12,11 @@ export default function Footer_contact() {
                             <div className="tj-sec-heading">
                                 <span className="white-sub-title">Get in touch</span>
                                 <h2 className="title">
-                                    Get your Free Trial and <span className="black-color">Quotation</span>
+                                    We’re Here <span className="black-color">to Help</span>
                                 </h2>
                                 <div className="desc">
                                     <p>
-                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                                        chunks as necessary, making this the first true generator on the Internet.
+                                        Whether you have questions, feedback, or need assistance, feel free to reach out. Our team is always ready to connect and support you with prompt and friendly service.
                                     </p>
                                 </div>
                                 {/* <div className="comntact-list">
