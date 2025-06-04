@@ -2,10 +2,42 @@ import React, { useEffect } from "react";
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Counter_home from '../component/Counter_home'
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
+import "swiper/css";
+import "swiper/css/navigation";
 
 
 const Home = () => {
+useEffect(() => {
+  const thumbSlider = new Swiper(".thumb-slider", {
+    slidesPerView: 3, // <-- Change here
+    spaceBetween: 20,
+    watchSlidesProgress: true,
+  });
 
+  const contentSlider = new Swiper(".thumb-slider2", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: thumbSlider,
+    },
+    on: {
+      slideChange: function () {
+        thumbSlider.slideToLoop(this.realIndex);
+      },
+    },
+  });
+
+  thumbSlider.on("slideChange", function () {
+    contentSlider.slideToLoop(this.realIndex);
+  });
+}, []);
     return (
         <>
             <Navbar />
@@ -625,153 +657,89 @@ const Home = () => {
                 
                 {/* <!-- start: Testimonial Area --> */}
                 <section className="tj-testimonial-section-three">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="tj-sec-heading  " data-sal="slide-right" data-sal-duration="1000"
-                                    data-sal-delay="600">
-                                    <span className="secondary-color">Optional Subtitle</span>
-                                    <h2 className="sec-title">Praise from Clients</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row align-items-center">
-                            <div className="col-lg-5 ">
-                                <div className="thumb-area " data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
-                                    <div className="swiper thumb-slider">
-                                        <div className="swiper-wrapper thumb_slider">
-                                            <div className="swiper-slide thumb_slide">
-                                                <div className="thumb-1">
-                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
-                                                </div>
-                                                <div className="thumb-arrow">
-                                                    <i className="fa-solid fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                            <div className="swiper-slide thumb_slide">
-                                                <div className="thumb-1">
-                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
-                                                </div>
-                                                <div className="thumb-arrow">
-                                                    <i className="fa-solid fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                            <div className="swiper-slide thumb_slide">
-                                                <div className="thumb-1">
-                                                    <img src="/assets/pic/avatar-5.jpg" alt="Image" />
-                                                </div>
-                                                <div className="thumb-arrow">
-                                                    <i className="fa-solid fa-quote-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="testimonial-info">
-                                        <h4 className="title">Piter Bowman</h4>
-                                        <span className="sub-tilte">CEO, Business Co</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-7 " data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
-                                <div className="swiper thumb-slider2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                                    <div className="swiper-wrapper" id="swiper-wrapper-a7e1b8a98c99a89e" aria-live="polite" style={{
-                                        transitionDuration: '0ms',
-                                        transform: 'translate3d(-1501px, 0px, 0px)',
-                                    }}>
-                                        <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style={{
-                                            width: '746px',
-                                            marginRight: '10px',
-                                        }}>
-                                            <div className="testimonial-slider-item">
-                                                <div className="testimonial-rating">
-                                                    <ul className="dot-style">
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star-half-stroke"></i></li>
-                                                    </ul>
-                                                </div>
-                                                <p>
-                                                    Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum' will
-                                                    uncover many web sites still in their infancy. Various versions have
-                                                    evolved over the years, sometimes by accident, injected humour and the
-                                                    like.
-                                                </p>
-                                                <p>
-                                                    Various versions have evolved over the years, sometimes by accident,
-                                                    injected humour and the like.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="testimonial-slider-item">
-                                                <div className="testimonial-rating">
-                                                    <ul className="dot-style">
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star-half-stroke"></i></li>
-                                                    </ul>
-                                                </div>
-                                                <p>
-                                                    Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum' will
-                                                    uncover many web sites still in their infancy. Various versions have
-                                                    evolved over the years, sometimes by accident, injected humour and the
-                                                    like.
-                                                </p>
-                                                <p>
-                                                    Various versions have evolved over the years, sometimes by accident,
-                                                    injected humour and the like.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="testimonial-slider-item">
-                                                <div className="testimonial-rating">
-                                                    <ul className="dot-style">
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star-half-stroke"></i></li>
-                                                    </ul>
-                                                </div>
-                                                <p>
-                                                    Many desktop publishing packages and web page editors now use Lorem
-                                                    Ipsum as their default model text, and a search for 'lorem ipsum' will
-                                                    uncover many web sites still in their infancy. Various versions have
-                                                    evolved over the years, sometimes by accident, injected humour and the
-                                                    like.
-                                                </p>
-                                                <p>
-                                                    Various versions have evolved over the years, sometimes by accident,
-                                                    injected humour and the like.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="testimonial-navigation">
-                                        <div className="swiper-button-next"></div>
-                                        <div className="swiper-button-prev"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="tj-sec-heading" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
+              <span className="secondary-color">Optional Subtitle</span>
+              <h2 className="sec-title">Praise from Clients</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="row align-items-center">
+          <div className="col-lg-5" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="600">
+            <div className="thumb-area">
+              <div className="swiper thumb-slider">
+                <div className="swiper-wrapper thumb_slider">
+                  {["test-7.png", "test-8.png", "test-9.png"].map((img, index) => (
+                    <div className="swiper-slide swiper-slide thumb_slide" key={index}>
+                      <div className="thumb-1">
+                        <img src={`assets/images/testimonial/${img}`} alt={`Testimonial ${index + 1}`} />
+                      </div>
+                      <div className="thumb-arrow">
+                        <i className="fa-solid fa-quote-right"></i>
+                      </div>
                     </div>
-                    <div className="testimonial-sec-shape">
-                        <div className="shape-one shake-y">
-                            <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-                        </div>
-                        <div className="shape-two pulse"></div>
-                        <div className="shape-three shake-y">
-                            <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-                        </div>
+                  ))}
+                </div>
+              </div>
+              <div className="testimonial-info">
+                <h4 className="title">Piter Bowman</h4>
+                <span className="sub-tilte">CEO, Business Co</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-7" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="600">
+            <div className="swiper thumb-slider2">
+              <div className="swiper-wrapper">
+                {[...Array(3)].map((_, index) => (
+                  <div className="swiper-slide" key={index}>
+                    <div className="testimonial-slider-item">
+                      <div className="testimonial-rating">
+                        <ul className="dot-style">
+                          <li><i className="fa-solid fa-star"></i></li>
+                          <li><i className="fa-solid fa-star"></i></li>
+                          <li><i className="fa-solid fa-star"></i></li>
+                          <li><i className="fa-solid fa-star"></i></li>
+                          <li><i className="fa-solid fa-star-half-stroke"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        Many desktop publishing packages and web page editors now use Lorem
+                        Ipsum as their default model text. Various versions have evolved over
+                        the years, sometimes by accident, injected humour and the like.
+                      </p>
+                      <p>
+                        Various versions have evolved over the years, sometimes by accident,
+                        injected humour and the like.
+                      </p>
                     </div>
-                </section>
+                  </div>
+                ))}
+              </div>
+
+              <div className="testimonial-navigation">
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Decorative Shapes */}
+      <div className="testimonial-sec-shape">
+        <div className="shape-one shake-y">
+          <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
+        </div>
+        <div className="shape-two pulse"></div>
+        <div className="shape-three shake-y">
+          <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
+        </div>
+      </div>
+    </section>
                 {/* <!-- end: Testimonial Area --> */}
 
             </main>
