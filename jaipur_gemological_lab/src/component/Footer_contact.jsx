@@ -51,7 +51,7 @@ export default function Footer_contact() {
                                     <div className="col-lg-12">
                                         <div className="form-input">
                                             <input type="text" className="form__input"
-                                                placeholder="Business services consultion" name="con2Subject" />
+                                                placeholder="How Can Help You?" name="con2Subject" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
