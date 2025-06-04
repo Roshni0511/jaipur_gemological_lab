@@ -67,7 +67,7 @@ const Termsandcondition = () => {
         </section>
         {/* <!-- end: Breadcrumb Area --> */}
 
-    <div className='tj-portfolio-section-three'>
+    <div className='tj-portfolio-section-three tj-sec-heading'>
   <div>
     <div className="container">
       <h2 className='sec-title' style={{marginBottom:'30px'}}>Terms & Conditions – Jaipur Solitaire Lab</h2>

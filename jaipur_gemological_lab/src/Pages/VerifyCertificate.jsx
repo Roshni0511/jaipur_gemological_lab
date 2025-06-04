@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
 const VerifyCertificate = () => {
+   const [isMobile, setIsMobile] = useState(window.innerWidth <= 425);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 425);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <>
       <footer className="tj-footer-three" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
@@ -31,7 +38,7 @@ const VerifyCertificate = () => {
                                         </div>
 <a href="/" style={{ width: '100%' }}>
   <div className="tj-contact-button" style={{ display: 'flex', justifyContent: 'center' }}>
-    <button className="btn tj-black-btn-two" type="button" style={{ width: '50%' }}>
+    <button className="btn tj-black-btn-two" type="button"  style={{ width: isMobile ? '100%' : '50%' }}>
       Back To Home
     </button>
   </div>
