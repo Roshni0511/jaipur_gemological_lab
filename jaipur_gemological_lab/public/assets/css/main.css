@@ -4144,8 +4144,8 @@ START: Theme Service CSS
   gap: 20px;
 }
 .tj-service-video-content .video-area .video-play a {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   line-height: 60px;
   border-radius: 50%;
   font-size: 22px;
