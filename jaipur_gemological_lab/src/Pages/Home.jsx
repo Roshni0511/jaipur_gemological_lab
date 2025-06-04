@@ -629,8 +629,8 @@ useEffect(() => {
                                     <div className="tj-video-popup">
                                         <div className="circle pulse video-icon">
                                             <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
-                                                href="https://www.youtube.com/watch?v=ADmQTw4qqTY">
-                                                <img src="/public/assets/pic/numerology-concept-with-pebbles-top-view.jpg" alt="Play" />
+                                                href="https://youtu.be/-aTFL_lNrww?si=G4PP0d-QjEZtVKT2">
+                                                <img src="" alt="Play" />
                                             </a>
                                         </div>
                                     </div>
@@ -672,10 +672,10 @@ useEffect(() => {
             <div className="thumb-area">
               <div className="swiper thumb-slider">
                 <div className="swiper-wrapper thumb_slider">
-                  {["test-7.png", "test-8.png", "test-9.png"].map((img, index) => (
+                  {["avatar-5.jpg", "avatar-5.jpg", "avatar-5.jpg"].map((img, index) => (
                     <div className="swiper-slide swiper-slide thumb_slide" key={index}>
                       <div className="thumb-1">
-                        <img src={`assets/images/testimonial/${img}`} alt={`Testimonial ${index + 1}`} />
+                        <img src={`assets/pic/${img}`} alt={`Testimonial ${index + 1}`} />
                       </div>
                       <div className="thumb-arrow">
                         <i className="fa-solid fa-quote-right"></i>
