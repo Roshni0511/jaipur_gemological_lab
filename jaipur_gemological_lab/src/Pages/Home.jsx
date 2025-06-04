@@ -397,18 +397,40 @@ const Home = () => {
                                     data-sal-delay="600">
                                     <div className="desc">
                                         <p>
-                                            Watch our video presentation to get a quick and powerful glimpse into our story, services, and vision.
+                                          Explore our trusted services in Rudraksha verification, diamond purity checks, and genuine gem testing—where authenticity meets expertise
                                         </p>
                                     </div>
-                                    <div className="video-area">
+                                    <div className="video-area" style={{marginBottom:'10px'}}>
                                         <div className="video-play">
-                                            <a className="venobox popup-videos-button" data-autoplay="true" data-vbtype="video"
-                                                href="https://www.youtube.com/watch?v=ADmQTw4qqTY">
-                                                <i className="fa-sharp fa-solid fa-play"></i>
+                                            <a  data-autoplay="true">
+                                                <i class="fas fa-gem"></i> 
                                             </a>
                                         </div>
                                         <div className="video-text">
-                                            <h6 className="title">Video Presentation</h6>
+                                            <h6 className="title">
+Rudraksha Verified</h6>
+                                        </div>
+                                    </div>
+                                       <div className="video-area"  style={{marginBottom:'10px'}}>
+                                        <div className="video-play">
+                                            <a data-autoplay="true"
+                                               >
+                                                <i class="fas fa-search"></i>
+                                            </a>
+                                        </div>
+                                        <div className="video-text">
+                                            <h6 className="title">Diamond Purity Check</h6>
+                                        </div>
+                                    </div>
+                                       <div className="video-area"  style={{marginBottom:'10px'}}>
+                                        <div className="video-play">
+                                            <a data-autoplay="true" 
+                                               >
+                                            <i class="fas fa-check-circle"></i> 
+                                            </a>
+                                        </div>
+                                        <div className="video-text">
+                                            <h6 className="title">Genuine Gem Test </h6>
                                         </div>
                                     </div>
                                     <div className="video-shape shake-y">
