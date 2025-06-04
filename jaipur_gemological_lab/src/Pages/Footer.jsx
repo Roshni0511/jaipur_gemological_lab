@@ -28,18 +28,26 @@ const Footer = () => {
                                 </p>
                                 <div className="footer-share">
                                     <ul className="dot-style">
+                                      <li>
+  <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-instagram"></i>
+  </a>
+</li>
+
+
+
                                         <li>
-                                            <a href=""><i className="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href=""><i className="fa-brands fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href=""><i className="fa-brands fa-whatsapp"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href=""><i className="fa-brands fa-facebook-f"></i></a>
-                                        </li>
+  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-whatsapp"></i>
+  </a>
+</li>
+
+                                      <li>
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-facebook-f"></i>
+  </a>
+</li>
+
                                     </ul>
                                 </div>
                             </div>
