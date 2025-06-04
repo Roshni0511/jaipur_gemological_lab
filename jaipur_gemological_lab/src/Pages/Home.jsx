@@ -363,7 +363,7 @@ const Home = () => {
                                     </div>
                                     <h4 className="title"><a href="">we testing diamond jewellery</a></h4>
                                     <p>
-                                        We testing Diamond Jewellery like test by clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.
+                                        We testing Diamond Jewellery like test by clarity F L,  S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.
                                     </p>
                                     <div className="border-inner"></div>
                                 </div>
@@ -388,7 +388,7 @@ const Home = () => {
                                     </div>
                                     <h4 className="title"><a href="">we testing gemstone & rudraksh mala</a></h4>
                                     <p>
-                                        We testing Rudraksh mala like test X-ray based testing in rudraksh mala & gemstone like crystal (Sphatik), coral (Munga), dyad coral, dyad quartaz, navratna (Navgrah), pearl (Moti), crystal, mala etc.
+                                        We testing Rudraksh mala like test X-ray based testing in rudraksh mala & gemstone like crystal (Sphatik), coral (Munga), dyad coral,  crystal, mala etc.
                                     </p>
                                 </div>
                             </div>
