@@ -76,12 +76,10 @@ const Contact = () => {
                             data-sal-delay="300">
                             <div className="tj-sec-heading">
                                 <span className="sub-title">Get In touch</span>
-                                <h2 className="sec-title">Have any Project Plan In your Mind?</h2>
+                                <h2 className="sec-title">How Can We help?</h2>
                                 <div className="desc">
                                     <p>
-                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                                        chunks as necessary, making this the first true generator on the Internet.
-                                        It uses a dictionary of over 200 Latin words,
+                                       We are here to provide you with expert guidance and support tailored to your needs. Whether you have questions, need assistance with our services, or want personalized advice, our dedicated team is ready to listen and offer solutions that make your experience smooth and satisfying. Reach out anytime, and let us help you achieve your goals with ease and confidence.
                                     </p>
                                 </div>
                             </div>
@@ -94,7 +92,7 @@ const Contact = () => {
                                     <a href="tel:+0000123456789">+ 0000 123-456-789</a>
                                 </div>
                             </div> */}
-                            <div className="comntact-list">
+                            {/* <div className="comntact-list">
                                 <div className="contact-icon">
                                     <img src="assets/images/icon/mail.svg" alt="Icon" />
                                 </div>
@@ -102,7 +100,7 @@ const Contact = () => {
                                     <span className="d-block">Mail us 24/7</span>
                                     <a href="mailto:hello@gmail.com">hello@gmail.com</a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <form id="contact-form" className="contact-form-box " data-sal="slide-left" data-sal-duration="1000"
                             data-sal-delay="300">

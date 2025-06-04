@@ -136,7 +136,7 @@ const Footer = () => {
                         <div className="copyright-content-area justify-content-center">
                             <div className="copyright-left-content">
                                 <p>
-                                   © Copyright 2023 | All Rights Reserved |<a href="https://successinnovativetechnologiespvtltd.com/" target="_blank"> Proudly Powered by Success Innovative Technologies Pvt Ltd </a> 
+                                   © Copyright 2025 | All Rights Reserved |<a href="https://successinnovativetechnologiespvtltd.com/" target="_blank"> Proudly Powered by Success Innovative Technologies Pvt Ltd </a> 
                                 </p>
                             </div>
                             {/* <div className="copyright-menu">
