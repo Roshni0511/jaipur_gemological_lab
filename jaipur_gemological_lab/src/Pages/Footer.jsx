@@ -29,16 +29,16 @@ const Footer = () => {
                                 <div className="footer-share">
                                     <ul className="dot-style">
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i className="fa-brands fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href=""><i className="fa-brands fa-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-whatsapp"></i></a>
+                                            <a href=""><i className="fa-brands fa-whatsapp"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href=""><i className="fa-brands fa-facebook-f"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -79,38 +79,38 @@ const Footer = () => {
                         <div className="footer-widget footer1-col-4">
                             <h4 className="footer_title">Photo Gallery</h4>
                             <div className="widget_gallery popup-gallery">
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-1.jpg"><img
-                                        src="assets/images/gallery/post-1.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/footer1.jpeg"><img
+                                        src="/assets/pic/footer1.jpeg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
                                 </a>
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-2.jpg"><img
-                                        src="assets/images/gallery/post-2.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/services2.jpg"><img
+                                        src="/assets/pic/services2.jpg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
                                 </a>
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-3.jpg"><img
-                                        src="assets/images/gallery/post-3.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/semi-precious (1).jpg"><img
+                                        src="/assets/pic/semi-precious (1).jpg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
                                 </a>
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-4.jpg"><img
-                                        src="assets/images/gallery/post-4.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/Gemstone (1).jpg"><img
+                                        src="/assets/pic/Gemstone (1).jpg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
                                 </a>
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-5.jpg"><img
-                                        src="assets/images/gallery/post-5.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/mala1.jpg"><img
+                                        src="/assets/pic/mala1.jpg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
                                 </a>
-                                <a className="footer-gallery-item" href="assets/images/gallery/post-6.jpg"><img
-                                        src="assets/images/gallery/post-6.jpg" alt="Images" />
+                                <a className="footer-gallery-item" href="/assets/pic/gems(1) (1).jpg"><img
+                                        src="/assets/pic/gems(1) (1).jpg" alt="Images" />
                                     <div className="gallery-icon">
                                         <i className="fa-regular fa-plus"></i>
                                     </div>
