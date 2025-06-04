@@ -847,7 +847,7 @@ START: Theme Header CSS
   }
 }
 .tj-header-area.header-style-three .menu-area {
-  padding: 20px 100px;
+  padding: 10px 100px;
   -webkit-box-shadow: none;
           box-shadow: none;
   background: var(--tj-color-common-white);
@@ -871,7 +871,7 @@ START: Theme Header CSS
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-header-area.header-style-three .menu-area {
-    padding: 15px 15px;
+    padding: 4px 15px;
   }
 }
 .tj-header-area.header-style-three.sticky {
